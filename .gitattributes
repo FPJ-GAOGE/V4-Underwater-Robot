@@ -12,3 +12,7 @@ software/** -text
 *.step -text
 *.stp -text
 *.m -text
+# BOM downloads and their SHA-256 checksums must match byte-for-byte after cloning.
+hardware/bom/*.csv -text
+hardware/bom/*.json -text
+hardware/bom/*.xlsx binary

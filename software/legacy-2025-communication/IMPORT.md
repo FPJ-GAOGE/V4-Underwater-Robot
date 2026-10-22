@@ -1,5 +1,7 @@
 # 历史通信示例导入记录
 
+中文 | [English](IMPORT.en.md)
+
 本目录仅用于保留 2025 年 V4 研发资料中的早期 TCP 图像通信示例，**不是当前 V4 树莓派 `joystick_control` 服务，也不是 V4-pro 的 UDP / UART 桥接实现**。
 
 来源为飞书[上位机和树莓派通信](https://iwin-fins.feishu.cn/wiki/YMpxw929tiODo1kBmVRcYpy4noh)相关资料附件 `wirelesscommunicator.zip`。导入日期：2026-10-22。附件未包含 Git 提交号或明确许可；不能据此假定 MIT 等开源授权。公开发布时应随项目确认原作者授权。

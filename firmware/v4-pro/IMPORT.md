@@ -1,5 +1,7 @@
 # V4-pro 固件来源、构建与实例差异
 
+中文 | [English](IMPORT.en.md)
+
 本目录保存 [FineSUB](https://gitee.com/gan-ju/FineSUB) 的 `v4pro1` 分支源码快照，基准提交为 `5a7832648206e522e9b8e0dff108638789f6afdd`。它对应上游提交说明「V4PRO1 粗调pid版」。另一台实例的 `V4pro2` 分支固定为 `847ff0309c54016365c303b686369af9d005db41`，通过 [差异补丁](variants/v4-pro1-to-pro2.patch) 保留。
 
 飞书 V4-pro 制作资料引用 FineSUB，但没有指定具体分支。这里根据上游的两个明确命名分支保存可复查的参考，**不能据此认定某台现存潜器已经烧录其中任一提交**。`pro1`、`pro2` 是 V4-pro 内部实例差异；它们不是 V4 与 V4-pro 的两种型号。V4 的 IWIN-FINS / V4-ly 固件位于相邻目录。

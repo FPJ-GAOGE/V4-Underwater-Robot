@@ -1,5 +1,7 @@
 # V4-pro Jetson Orin NX 参考程序
 
+中文 | [English](README.en.md)
+
 本目录整理飞书《ORIN NX配置（ORIN NANO同样适用》的三个附件，对应 **V4-pro 的 Orin NX → ROBOMASTER A 板 UART3** 链路。脚本中的 `V5` 是历史文件名，不据此改写整机型号。
 
 **`upstream/` 是保留原貌的历史参考，不是已经验收的推荐部署程序。** 没有在真实 Jetson、相机、手柄或 RM-A 上运行本次导入。原始脚本中的协议与参数应先和目标固件核对，再制作部署副本。V4 的树莓派 / RM-C / TCP 5000 客户端与这里的 UDP 手柄协议不兼容，不能直接互换。

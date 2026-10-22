@@ -1,60 +1,124 @@
 # IWIN-FINS V4 / V4-pro
 
-面向水下机器人复现与维护的项目资料库：机械设计、采购清单、电气接线、嵌入式控制、上位机和部署说明。V4 与 V4-pro 分别保留各自的软件链路与硬件配置。
+**中文 / English** · [English edition](README.en.md) · [BOM 下载 / Download](hardware/bom/V4-V4pro-BOM.xlsx) · [型号差异 / Variants](docs/variants.md)
 
-**当前为私有开源准备仓库。** 本次整理固定已有源码与设计资料，未改动控制算法，也未进行烧录或实机验证。不同目录沿用各自的许可；尚无明确许可的资料见 [许可与来源](THIRD_PARTY_NOTICES.md)。
+V4 / V4-pro 是 IWIN-FINS 水下机器人项目的两个硬件与软件方案。本仓库整理机械设计、BOM、电气接线、控制固件、上位机及制作与部署说明，供复现、维护和后续开发使用。
 
-![V4 设计预览](docs/images/v4-design.png)
+V4 and V4-pro are two hardware and software configurations in the IWIN-FINS underwater robot project. This repository brings together mechanical designs, bills of materials, wiring, controller firmware, topside software, and build and deployment documentation for reproduction, maintenance, and further development.
 
-## 先选型号
+**当前仓库保持私有。** 各组件保留原有许可；已取得资料的范围、缺失程序及未完成的验证均在文档中注明。
 
-| | V4 | V4-pro |
+**This repository remains private.** Components retain their original licenses. Available material, missing programs, and outstanding validation are documented separately.
+
+![V4 设计预览 / V4 design preview](docs/images/v4-design.png)
+
+## 项目概览 / Overview
+
+两种潜器均采用八推进器方案，但主控、舱内计算机、电机驱动及控制协议不同。文档分别说明 V4 与 V4-pro；Pro 的两个固件分支也单独对照。
+
+Both vehicles use eight thrusters, with different controllers, onboard computers, motor drivers, and control protocols. V4 and V4-pro are documented separately, including a comparison of the two Pro firmware branches.
+
+| 项目 / Item | V4 | V4-pro |
 | --- | --- | --- |
-| 文档中的主控方案 | RoboMaster C 板 | RoboMaster A 板 |
-| 舱内计算机 | 树莓派 4B | Jetson Orin Nano / NX，具体载板需核对 |
-| 控制固件 | IWIN-FINS `V4-ly`，默认 V40 | FineSUB `v4pro1` 基准，附 `V4pro2` 差异补丁 |
-| 推进器输出 | I²C → PCA9685 → 8 路 PWM | A 板 DSHOT → 2 块四合一电调 → 8 路无刷推进器 |
-| 上层控制链路 | PC TCP 5000 → 树莓派 → UART6 | PC UDP 12345 → Jetson → UART3 |
-| 固件命令串口 | 115200、8E1 | 115200、8N1 |
-| 机械来源 | 2025-05-23 完整模型；2025-07-10 相机支架 | V4-PRO 制作文档中的 `V4pro.zip` |
-| 详细说明 | [V4 硬件](docs/hardware-v4.md) · [V4 固件](docs/firmware-v4.md) | [V4-pro 硬件](docs/hardware-v4-pro.md) · [V4-pro 固件](firmware/v4-pro/IMPORT.md) |
+| 主控 / Controller | RoboMaster C 板 / Type C board | RoboMaster A 板 / Type A board |
+| 舱内计算机 / Onboard computer | Raspberry Pi 4B | Jetson Orin Nano / NX，载板需核对 / verify carrier board |
+| 固件 / Firmware | IWIN-FINS `V4-ly`，默认 / default V40 | FineSUB `v4pro1` + `V4pro2` 差异补丁 / variant patch |
+| 推进器驱动 / Thruster drive | I²C → PCA9685 → 8 路 PWM / 8 PWM channels | DSHOT → 2 块四合一电调 / two 4-in-1 ESCs → 8 motors |
+| 控制链路 / Control link | PC TCP 5000 → Raspberry Pi → UART6 | PC UDP 12345 → Jetson → UART3 |
+| 命令串口 / Command UART | 115200, 8E1 | 115200, 8N1 |
+| 机械版本 / Mechanical sources | 2025-05-23 完整模型 / full model; 2025-07-10 相机支架 / camera mount | Pro 制作文档中的 / build-document archive `V4pro.zip` |
 
-**两个型号不能通过更改一个版本号互换固件。** PC 软件、串口帧格式、PWM 通道、IMU 方向及压力融合也有差别。先读 [完整型号差异](docs/variants.md) 和 [系统结构](docs/architecture.md)。
+两个型号不能通过更改版本号互换固件。推进器线制、串口帧、传感器坐标系、供电和控制增益需与实物匹配。详见 [中文型号对照](docs/variants.md) / [English variant comparison](docs/variants.en.md)。原资料未提供完整可复核的性能报告，因此此处不填写额定潜深、续航或速度。
 
-## 从这里开始
+The firmware is not interchangeable by changing a version flag. Thruster wiring, UART frames, sensor axes, power rails, and control gains must match the actual vehicle. Rated depth, endurance, and speed are not specified because the supplied material lacks a complete, verifiable test record for these builds.
 
-1. **制作机械部分**：查看 [机械文件与下载](hardware/README.md)、[BOM](docs/bom.md) 及对应型号的硬件说明。
-2. **理解或编译控制代码**：V4 见 [firmware/v4](firmware/v4/IMPORT.md)；V4-pro 见 [firmware/v4-pro](firmware/v4-pro/IMPORT.md)。代码来源和提交均固定，可独立追溯。
-3. **运行 PC / 舱内程序**：按 [使用与部署](docs/operation.md) 选择链路。V4 PC 的入口是 `software/v4-topside/pc_client.py`；V4-pro Jetson 的入口是 `software/v4-pro-jetson/upstream/V5StreamerNX.py`。
-4. **核对首次下水条件**：先完成接线和无动力水密检查，再逐个验证传感器、推进器顺序与方向，最后闭环调试。参见对应硬件说明及 [已知缺口](docs/known-limitations.md)。
+## BOM 材料清单 / Bill of materials
+
+**直接下载双语 Excel：[V4-V4pro-BOM.xlsx](hardware/bom/V4-V4pro-BOM.xlsx)**。工作簿分别列出 V4 与 V4-pro，包含中英文名称、数量、单位、规格、商品链接、来源及待确认项。CSV 适合在线查看和版本比较。
+
+**Download the bilingual Excel workbook: [V4-V4pro-BOM.xlsx](hardware/bom/V4-V4pro-BOM.xlsx).** Separate V4 and V4-pro sheets include Chinese and English names, quantities, units, specifications, supplier links, sources, and unresolved items. CSV files support online inspection and version comparison.
+
+[BOM 发布页 / BOM release downloads](https://github.com/FPJ-GAOGE/V4-Underwater-Robot/releases/tag/bilingual-bom-2026-10-22) · [SHA-256 校验值 / Checksums](hardware/bom/SHA256SUMS.txt)
+
+| 型号 / Variant | 在线说明 / Documentation | 表格 / Table |
+| --- | --- | --- |
+| V4 | [中文 BOM](docs/bom.md) · [English BOM](docs/bom.en.md) | [V4 CSV](hardware/bom/V4-BOM.csv) |
+| V4-pro | [中文 BOM](docs/bom.md) · [English BOM](docs/bom.en.md) | [V4-pro CSV](hardware/bom/V4-pro-BOM.csv) |
+| 两型号 / Both | [双语数据 / Bilingual data](hardware/bom/bom-data.json) | [Excel 下载 / Download](hardware/bom/V4-V4pro-BOM.xlsx) |
+
+数量未明确的条目保留为空并附说明；舵机数量、继电器电流和 Pro 舵机供电的历史冲突均保留。商品记录用于核对规格，未确认当前价格或在售情况。机械加工、打印件与线束也纳入清单，完整数量仍须结合对应 CAD 和实际装配核对。
+
+Unspecified quantities remain blank with explanatory notes. Historical conflicts in servo count, relay current rating, and Pro servo voltage are retained. Supplier records help identify specifications; current prices and availability have not been verified. The BOM includes machining, printed parts, and wiring, with final quantities to be checked against the matching CAD and assembly.
+
+## 机械与制作 / Structure and assembly
+
+Git 中提供 STEP / DWG 等加工与交换文件；完整 SolidWorks 原包保存在 [机械源文件 Release / Mechanical source release](https://github.com/FPJ-GAOGE/V4-Underwater-Robot/releases/tag/mechanical-source-2026-10-22)。原包包含装配关系，下载需要有仓库访问权限的 GitHub 账户。
+
+STEP / DWG and other manufacturing or exchange files are stored in Git. Complete SolidWorks source archives, including native assemblies, are available in the release linked above. Access requires a GitHub account with permission to this private repository.
+
+| 资料 / Material | 中文 | English |
+| --- | --- | --- |
+| 机械下载 / Mechanical files | [文件索引](hardware/README.md) | [File index](hardware/README.en.md) |
+| V4 制作与接线 / V4 build and wiring | [硬件说明](docs/hardware-v4.md) | [Hardware guide](docs/hardware-v4.en.md) |
+| V4-pro 制作与接线 / V4-pro build and wiring | [硬件说明](docs/hardware-v4-pro.md) | [Hardware guide](docs/hardware-v4-pro.en.md) |
+| 系统结构 / System architecture | [系统结构](docs/architecture.md) | [Architecture](docs/architecture.en.md) |
+
+## 控制代码 / Controllers
+
+V4 使用用户指定的 IWIN-FINS `V4-ly` 分支；V4-pro 使用 FineSUB `v4pro1` 固定源码，并提供到 `V4pro2` 的差异补丁。导入记录保留提交、依赖、构建入口及限制。
+
+V4 uses the specified IWIN-FINS `V4-ly` branch. V4-pro uses a pinned FineSUB `v4pro1` snapshot with a patch for `V4pro2`. Import records identify commits, dependencies, build entry points, and limitations.
+
+| 代码 / Code | 中文 | English |
+| --- | --- | --- |
+| [V4 firmware](firmware/v4) | [源码导入](firmware/v4/IMPORT.md) · [协议与构建](docs/firmware-v4.md) | [Import record](firmware/v4/IMPORT.en.md) · [Protocol and build](docs/firmware-v4.en.md) |
+| [V4-pro firmware](firmware/v4-pro) | [源码导入](firmware/v4-pro/IMPORT.md) · [Pro1 / Pro2](firmware/v4-pro/variants/README.md) | [Import record](firmware/v4-pro/IMPORT.en.md) · [Pro1 / Pro2](firmware/v4-pro/variants/README.en.md) |
+
+## 上位机与部署 / Topside software and deployment
+
+V4 的 PC 手柄客户端位于 `software/v4-topside`；Pro 的 Jetson 串口转发、视频及部署模板位于 `software/v4-pro-jetson`。先按型号选择链路，再配置网络和串口。V4 的 TCP 客户端与 Pro 的 UDP 协议不兼容。
+
+The V4 PC gamepad client is in `software/v4-topside`. Pro Jetson serial forwarding, video scripts, and deployment templates are in `software/v4-pro-jetson`. Select the vehicle configuration before configuring networking and UART. The V4 TCP client is incompatible with the Pro UDP protocol.
+
+- 使用与部署 / Operation and deployment: [中文](docs/operation.md) · [English](docs/operation.en.md)
+- V4 PC 客户端 / PC client: [中文](software/v4-topside/IMPORT.md) · [English](software/v4-topside/IMPORT.en.md)
+- V4-pro Jetson: [中文](software/v4-pro-jetson/README.md) · [English](software/v4-pro-jetson/README.en.md)
+
+## 仓库结构 / Repository layout
 
 ```text
-firmware/
-  v4/                         IWIN-FINS V4-ly 原始控制源码
-  v4-pro/                     FineSUB pro1 源码、固定依赖与 pro2 补丁
-software/
-  v4-topside/                 V4 PC 手柄与曲线客户端
-  v4-pro-jetson/              Jetson 转发、视频脚本及部署模板
-  legacy-2025-communication/  历史图像通信示例（不属于当前控制链路）
-hardware/
-  v4/                        V4 STEP / DWG、机械爪、相机支架、接线原图
-  v4-pro/                    V4-pro STEP / DWG、推力计算脚本
-  assets-manifest.json        CAD 原包与提取文件的 SHA-256 清单
-docs/                        型号对照、装配、使用与来源记录
-tools/                       离线资料完整性检查
+firmware/v4/                  IWIN-FINS V4-ly controller source
+firmware/v4-pro/              FineSUB pro1, pinned dependencies, pro2 patch
+software/v4-topside/          V4 PC gamepad and plotting clients
+software/v4-pro-jetson/       Pro Jetson control, video, deployment templates
+software/legacy-2025-communication/  Historical image-transfer examples
+hardware/bom/                Bilingual Excel, CSV and source data
+hardware/v4/                 V4 CAD, manipulator, camera mount, wiring PDF
+hardware/v4-pro/              V4-pro CAD and thrust calculation script
+docs/                        Chinese and English technical guides
+tools/                       Offline integrity checks
 ```
 
-完整 SolidWorks 原包从 [机械源文件 Release](https://github.com/FPJ-GAOGE/V4-Underwater-Robot/releases/tag/mechanical-source-2026-10-22) 下载；私有仓库需要登录有权限的 GitHub 账户。Git 中保留便于阅读与加工的中性格式，原包保留装配关系和原生工程文件。
+## 验证与待补充内容 / Validation and remaining gaps
 
-## 当前交付边界
+当前已检查来源文件、CAD 和附件完整性、Python 静态语法及离线协议。尚未完成交叉编译或实机联调。原资料没有提供当前 V4 树莓派 `joystick_control` 服务端，以及可确认的 Pro Windows 手柄程序源码；这些缺口明确保留。
 
-- V4 的 PC 客户端和控制固件已收录；实际树莓派 `joystick_control` 服务端未出现在所给仓库或附件中，因此不能仅靠本仓库从零复现整条 V4 链路。
-- V4-pro 已收录固件与 Jetson 桥接脚本；制作资料提到的配套 Windows 手柄程序没有提供可确认的源码。V4 的 TCP 客户端不能代替它。
-- 已核验源码导入、型号参数、CAD 校验值与 Python 静态语法；没有交叉编译、安装全部运行依赖或进行实机联调。[验证记录](docs/validation.md) 给出具体范围。
-- 历史资料中有硬件参数冲突和实现缺陷，已集中列在 [已知缺口](docs/known-limitations.md)。仓库不包含设备登录密码、飞书认证文件、人员分工或经费记录。
+Source, CAD, and attachment integrity, Python syntax, and offline protocol encoding have been checked. Cross-compilation and hardware integration have not been completed. The supplied sources omit the current V4 Raspberry Pi `joystick_control` server and confirmed source code for the matching Pro Windows gamepad application.
 
-## 来源与贡献
+验证记录 / Validation: [中文](docs/validation.md) · [English](docs/validation.en.md)
 
-项目资料来自 IWIN-FINS 团队的飞书文档及其引用的上游仓库。详见 [来源记录](docs/sources.md)、[第三方许可](THIRD_PARTY_NOTICES.md) 和 [贡献约定](CONTRIBUTING.md)。
+已知缺口 / Known limitations: [中文](docs/known-limitations.md) · [English](docs/known-limitations.en.md)
 
-English: This repository organizes the existing V4 and V4-pro underwater robot designs and software as a private release-preparation snapshot. The two hardware/software stacks are documented separately. It does not claim a fully validated hardware build or a single license covering all imported material.
+## 来源、参考与贡献 / Sources, reference, and contributions
+
+项目资料来自 IWIN-FINS 团队飞书文档和文档引用的上游仓库。仓库展示参考 [FinsROV: An Underwater Camera-Based Multi-Robot Platform](https://github.com/IWIN-FINS/FinsROV-An-Underwater-Camera-Based-Multi-Robot-Platform) 的双语介绍、结构文件、BOM 和制作说明组织方式。该参考项目的性能参数及许可不自动适用于本仓库。
+
+Project material comes from the IWIN-FINS team's Feishu documents and their referenced upstream repositories. The linked FinsROV project informs the bilingual presentation and organization of structure files, BOM, and build instructions. Its performance specifications and licenses do not automatically apply to this repository.
+
+- 来源 / Sources: [中文](docs/sources.md) · [English](docs/sources.en.md)
+- 许可与署名 / Licenses and attribution: [中文](THIRD_PARTY_NOTICES.md) · [English](THIRD_PARTY_NOTICES.en.md)
+- 贡献 / Contributing: [中文](CONTRIBUTING.md) · [English](CONTRIBUTING.en.md)
+
+新编项目文档提供完整中英文版本；上游源码注释、原始附件、CAD 文件名及图内文字保留原样。
+
+The authored project documentation is available in Chinese and English. Upstream source comments, original attachments, CAD filenames, and text embedded in original figures remain unchanged.

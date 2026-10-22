@@ -1,5 +1,7 @@
 # V4 PC 上位机导入记录
 
+中文 | [English](IMPORT.en.md)
+
 ## 来源与适用范围
 
 - 上游仓库：<https://gitee.com/superkinkin/rov-v4-wired-joystick>

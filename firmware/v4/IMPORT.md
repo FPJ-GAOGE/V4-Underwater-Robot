@@ -1,5 +1,7 @@
 # V4 固件导入记录
 
+中文 | [English](IMPORT.en.md)
+
 本目录来自用户指定的 [IWIN-FINS / V4-ly](https://gitee.com/superkinkin/IWIN-FINS/tree/V4-ly/)，上游固定提交为 `42e5f16f5b3ad3e23fceb5eb60868340b365dfd5`，整理日期为 2026-10-22。通过 `git -c core.autocrlf=false archive` 提取该提交中的已跟踪文件，关闭本机换行转换；未复制上游 `.git`，未改变控制算法、硬件参数、通信实现及源码编码。
 
 此固件属于 V4 的 RM-C 方案资料。实际工程目标在 [Keil 工程](MDK-ARM/RM_Frame_C.uvprojx)中写为 `STM32F407IGHx`，不能据目录名称推定它能直接烧录到任意 RM 板卡。V4-pro 的 RM-A / FineSUB 固件是另一条实现，参见仓库中的型号对照说明；这里的 `V40` 不代表 V4-pro。

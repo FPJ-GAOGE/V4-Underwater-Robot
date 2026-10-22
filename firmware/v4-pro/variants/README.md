@@ -1,5 +1,7 @@
 # V4-pro 实例分支
 
+中文 | [English](README.en.md)
+
 父目录默认保存上游 `v4pro1@5a7832648206e522e9b8e0dff108638789f6afdd` 原始固件。此目录的 [v4-pro1-to-pro2.patch](v4-pro1-to-pro2.patch) 将 3 个固件文件精确转换到上游 `V4pro2@847ff0309c54016365c303b686369af9d005db41`。
 
 两个名称均来自 [FineSUB 上游分支](https://gitee.com/gan-ju/FineSUB)。飞书制作资料没有指定 `pro1` 或 `pro2`，因此这只是可追溯的两套实例参考，不代表已经确认用户哪台潜器对应哪个分支。

@@ -1,5 +1,7 @@
 # V4-pro 硬件与制造
 
+中文 | [English](hardware-v4-pro.en.md)
+
 V4-pro 资料采用 **RM-A 主控、Jetson Orin 系列上位计算机、2 块四合一电调、8 个不带电调的推进器、4 个水压计、2 个舵机与 2 个补光灯**。本页依据《V4-PRO制作文档汇总（RM-A主控）》《V4接线简化图》和 Orin 配置说明整理。它与 [V4 的 RM-C / PCA9685 方案](hardware-v4.md) 使用不同的动力与控制链路。
 
 ## 模型与加工件

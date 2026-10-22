@@ -1,5 +1,7 @@
 # V4 与 V4-pro 差异
 
+中文 | [English](variants.en.md)
+
 这里的 **V4** 指《比赛细节与V4设计》《V4使用说明》中的树莓派 / RM-C 系统，控制代码按指定的 IWIN-FINS `V4-ly` 固定。**V4-pro** 指《V4-PRO制作文档汇总（RM-A主控）》及其 Orin 配置资料中的系统。FineSUB `v4pro1` / `V4pro2` 是 Pro 内部两个配置版本，不能拿来代替 V4 / V4-pro 对照。
 
 ## 结构与电气

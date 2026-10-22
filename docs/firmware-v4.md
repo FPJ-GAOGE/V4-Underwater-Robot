@@ -1,5 +1,7 @@
 # V4 控制固件：构建、配置与通信
 
+中文 | [English](firmware-v4.en.md)
+
 本说明针对 [firmware/v4](../firmware/v4/IMPORT.md) 中的 IWIN-FINS `V4-ly` 固定提交 `42e5f16f5b3ad3e23fceb5eb60868340b365dfd5`。源码与用户指定上游保持一致，仅排除已记录的构建产物和厂商二进制手册。
 
 飞书资料的 V4 方案使用 RM-C、树莓派与 PCA9685；本分支的工程目标明确写为 `STM32F407IGHx`。两项分别是系统资料与工程配置的事实，尚不构成对任意板卡的兼容性验证。V4-pro 的 RM-A、Jetson 与 FineSUB 是独立实现，不能通过把这里的 `Robot_Version` 改成某个数值来切换。

@@ -1,6 +1,14 @@
 # 来源与版本记录
 
+中文 | [English](sources.en.md)
+
 整理日期：**2026-10-22（Asia/Shanghai）**。飞书内容通过项目所有者授权的 SJTU 账户读取；以下链接是资料出处，不保证无飞书权限的读者能访问。阅读、编译所需已取得的源码、图片和工程文件尽量保存在本仓库或其私有 Release 中。
+
+## 展示与组织参考
+
+用户指定对标项目：[FinsROV — An Underwater Camera-Based Multi-Robot Platform](https://github.com/IWIN-FINS/FinsROV-An-Underwater-Camera-Based-Multi-Robot-Platform)，参考 `main` 提交 `1bc38e83d8af669339c7a86f0a14e2180676347f`。其 `Code/`、`Structure/`、`Making_Instructions/` 分类、首页中英逐段说明，以及 `Structure/zh-CN/bom表.xlsx` / `Structure/En/BOM.xlsx` 的双语物料表，作为本项目的展示与组织参考。
+
+该参考不作为 V4 / V4-pro 实测性能、硬件配置、软件兼容性或再分发许可的依据；本项目的技术事实和权属记录仍来自下面列出的 V4 / V4-pro 原始资料与固定源码。
 
 ## 用户指定的三份资料
 
