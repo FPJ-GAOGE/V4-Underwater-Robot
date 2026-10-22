@@ -1,0 +1,14 @@
+* text=auto eol=lf
+# Preserve fixed upstream files byte-for-byte, including original line endings.
+firmware/** -text
+software/** -text
+*.png binary
+*.jpg binary
+*.pdf binary
+*.DWG binary
+*.SLDPRT binary
+*.SLDASM binary
+*.STEP -text
+*.step -text
+*.stp -text
+*.m -text

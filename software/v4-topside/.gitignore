@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+recv_log.txt
+*.log
+build/
+dist/
+*.exe
+.env
+.env.*
+!.env.example

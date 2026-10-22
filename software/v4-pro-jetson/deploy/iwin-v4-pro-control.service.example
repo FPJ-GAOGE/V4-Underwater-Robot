@@ -1,0 +1,25 @@
+# Example only: prepare a reviewed runtime copy and verify MCU compatibility.
+[Unit]
+Description=IWIN V4-pro joystick to MCU bridge
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+User=robot
+Group=robot
+SupplementaryGroups=dialout
+WorkingDirectory=/opt/iwin-v4/runtime
+ExecStart=/opt/iwin-v4/venv/bin/python -u /opt/iwin-v4/runtime/V5StreamerNX.py
+Restart=on-failure
+RestartSec=5
+KillSignal=SIGINT
+KillMode=control-group
+TimeoutStopSec=10
+UMask=0027
+NoNewPrivileges=true
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

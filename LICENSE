@@ -1,0 +1,14 @@
+This repository is a collection of separately licensed source and design
+materials. There is no blanket license that replaces the original terms.
+
+IWIN-FINS V4-ly: see firmware/v4/LICENSE (GNU GPL version 3 text).
+FineSUB: see firmware/v4-pro/LICENSE (Mozilla Public License 2.0).
+Bundled dependencies retain the licenses and notices in their own directories.
+
+Some imported PC software, Jetson attachments, mechanical files, and project
+documentation did not include an explicit redistribution license in the supplied
+sources. Inclusion in this private preparation repository is not a new license
+grant for those materials. No MIT, GPL, MPL, or other blanket grant is implied.
+
+See THIRD_PARTY_NOTICES.md for scope, source provenance, and unresolved licensing
+items. Original copyright and license notices must remain with their files.

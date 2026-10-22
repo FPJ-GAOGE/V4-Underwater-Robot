@@ -1,0 +1,1684 @@
+[
+  {
+    "archive": "V4pro.zip",
+    "bytes": 348312112,
+    "sha256": "cf8f3e7d8b030b335ae6474a7b5fe3a9e67dc9d058609c69dab4ab846822ef83",
+    "filename_encoding": "gbk",
+    "files": [
+      {
+        "archive_path": "V4pro/thrust.m",
+        "bytes": 527,
+        "sha256": "dc2fe7946a761f6b858612f90c027ef763f0b2972df6f339def63e0c8b405b32",
+        "repository_path": "hardware/v4-pro/cad/thrust.m"
+      },
+      {
+        "archive_path": "V4pro/V4外形.STEP",
+        "bytes": 21262552,
+        "sha256": "32ba6a7ddaed7e1a2aadd190c13278a858d9c97c8d293479095b2810ed6273d5",
+        "repository_path": "hardware/v4-pro/cad/V4外形.STEP"
+      },
+      {
+        "archive_path": "V4pro/主体/上推进器支撑.DWG",
+        "bytes": 56469,
+        "sha256": "2809e2e85c1a46f5f11f0b29477d909fb64f77be14e2cd7c54794d3bc1211281",
+        "repository_path": "hardware/v4-pro/cad/主体/上推进器支撑.DWG"
+      },
+      {
+        "archive_path": "V4pro/主体/上推进器支撑.SLDDRW",
+        "bytes": 159160,
+        "sha256": "e5daad0a647fc1df1f7b85e3f2a667e4f78b7628b6bdc91d046f55e7cb90f0d0",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/主体/上推进器支撑.SLDPRT",
+        "bytes": 290422,
+        "sha256": "6a5406e6436a386ca88479b8ed6518fbb8819b09e8570dec2c8792db0d7901d1",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/主体/上推进器支撑.STEP",
+        "bytes": 257495,
+        "sha256": "967ffec5a77963c0e5ff6d981fff8cb9fea42fba93f6c4b82b5d8b29c32941f5",
+        "repository_path": "hardware/v4-pro/cad/主体/上推进器支撑.STEP"
+      },
+      {
+        "archive_path": "V4pro/主体/侧支撑.DWG",
+        "bytes": 62386,
+        "sha256": "f13b33a5ec595303203a84343ebd0f14b95d627faae5542e5a7097e1c686f212",
+        "repository_path": "hardware/v4-pro/cad/主体/侧支撑.DWG"
+      },
+      {
+        "archive_path": "V4pro/主体/侧支撑.SLDDRW",
+        "bytes": 203799,
+        "sha256": "ac4391fa3b5ff68fe616b77ffa6490f0dbbfe7a830e7cfd9380e487b32049150",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/主体/侧支撑.SLDPRT",
+        "bytes": 322341,
+        "sha256": "74fa3d3aab4231496b38b73658465efd1b6eb43f75b1422a868f22e9bc4e79dc",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/主体/侧支撑.STEP",
+        "bytes": 400082,
+        "sha256": "139d64844022759cba985d2b9b0b8a1b4081eaba21b64e550e6bcc55815f645c",
+        "repository_path": "hardware/v4-pro/cad/主体/侧支撑.STEP"
+      },
+      {
+        "archive_path": "V4pro/主体/底支撑.SLDPRT",
+        "bytes": 356514,
+        "sha256": "000a5dd0f320530c7832cf0d4a6b920181225df20c5546f14e3ed96ac22b5f56",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/主体/底支撑2.DWG",
+        "bytes": 45066,
+        "sha256": "2a9224164343177ec312a6ae998579aab395bfab2411ec23732c0fa62496e149",
+        "repository_path": "hardware/v4-pro/cad/主体/底支撑2.DWG"
+      },
+      {
+        "archive_path": "V4pro/主体/底支撑2.SLDDRW",
+        "bytes": 131489,
+        "sha256": "7dfa4669ba4588cd8c1279842111fc00b74b7e1c8f7ee0dbbb4791fcd4ce6e10",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/主体/底支撑2.SLDPRT",
+        "bytes": 319952,
+        "sha256": "fbe62dbfef23d253dd7d80f4c5064e062692b2b3de91d4cb03e95568df78846c",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/主体/底支撑2.STEP",
+        "bytes": 139001,
+        "sha256": "06ccf94e0f399e3e6bd45afe673b4c4ec8613d271862c5878b7fb0be266880e5",
+        "repository_path": "hardware/v4-pro/cad/主体/底支撑2.STEP"
+      },
+      {
+        "archive_path": "V4pro/主体/把手护木上.SLDPRT",
+        "bytes": 220009,
+        "sha256": "76e77e35e43892868299a2763b9a8ab2727def003e2349ca5a1189d7dcd70149",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/主体/把手护木上.STEP",
+        "bytes": 189141,
+        "sha256": "8bb11342cd54cd7c4cb4842ca937fb141183e7d1b2a91c8ae3ac91223236ad80",
+        "repository_path": "hardware/v4-pro/cad/主体/把手护木上.STEP"
+      },
+      {
+        "archive_path": "V4pro/主体/把手护木下.SLDPRT",
+        "bytes": 225536,
+        "sha256": "53e0e9c70d468ab21a900097a15b30c3c3aed053aacd3b46e55e4d9b6fb5af76",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/主体/把手护木下.STEP",
+        "bytes": 197833,
+        "sha256": "33bb32cc5406248daf28e78ee718730eef314a248de357cdb29ac7dc5b1e2c9c",
+        "repository_path": "hardware/v4-pro/cad/主体/把手护木下.STEP"
+      },
+      {
+        "archive_path": "V4pro/主体/角件.SLDPRT",
+        "bytes": 125141,
+        "sha256": "5946088dddbe834df34d6933b2c3b9299074ecea98715c96c12ee896212d3483",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/主体/角件.STEP",
+        "bytes": 48572,
+        "sha256": "20815b73d7ab71baa399c8bad32d67484693aebdb5f1977f4227f6587c2559b1",
+        "repository_path": "hardware/v4-pro/cad/主体/角件.STEP"
+      },
+      {
+        "archive_path": "V4pro/加工外形.SLDASM",
+        "bytes": 1235926,
+        "sha256": "f7dc7d6d14fa537e6ebc75bd07fe658e30f69d2d57c1cf3dcc9918c97a9fa8e2",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/加工外形.STEP",
+        "bytes": 908478,
+        "sha256": "1bdb180b92fd00d3a9798822ca7287c9723a81893dfee76cbfe86465754a8016",
+        "repository_path": "hardware/v4-pro/cad/加工外形.STEP"
+      },
+      {
+        "archive_path": "V4pro/外形.SLDASM",
+        "bytes": 9308874,
+        "sha256": "a1cfab3cd157af04fe1cd0760b4eda6f5b76ace44acc6f7e171425831d892b80",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/外设/EL25探照灯外观.SLDPRT",
+        "bytes": 133955,
+        "sha256": "3a38bbbf208baec703f3c0b062ccb0ab650de8aa7436f377c77ee9573024d994",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/外设/EL25探照灯外观.STEP",
+        "bytes": 140409,
+        "sha256": "9493c94b28787e7418dcbd79dd82c3342bf5e2d14a14a81345c6f8fae593657a",
+        "repository_path": "hardware/v4-pro/cad/外设/EL25探照灯外观.STEP"
+      },
+      {
+        "archive_path": "V4pro/外设/Mirror补光灯固定件V2.SLDPRT",
+        "bytes": 110799,
+        "sha256": "6bc32dc0807cf5bc177550a301686f6732c5f9fad22a45ad862a6d7f6fd63419",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/外设/Mirror补光灯固定件V2.STEP",
+        "bytes": 151274,
+        "sha256": "fe5ab5ce3e72b13605ee148fe284992d7b8beb9ea83de6e39427db91ca3cc847",
+        "repository_path": "hardware/v4-pro/cad/外设/Mirror补光灯固定件V2.STEP"
+      },
+      {
+        "archive_path": "V4pro/外设/探照灯.SLDPRT",
+        "bytes": 162552,
+        "sha256": "390c8826e088d5596c4fe4a19066a40aebaab4437691aae083150f714a400ff6",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/外设/补光灯固定件.SLDPRT",
+        "bytes": 246107,
+        "sha256": "4dd7d2b7931a0ef37d70d65279079e15e36abbb76b31cdb15febaab6540e1b43",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/外设/补光灯固定件2.SLDPRT",
+        "bytes": 110927,
+        "sha256": "ab929532d0b73d5fa06c48beb4eeb3c211a317068d44a375b5ceee80b1b3950b",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/外设/补光灯固定件V2.SLDPRT",
+        "bytes": 177294,
+        "sha256": "bcfbee08255236c4ba44d0b0e1a2a963a6fd1cf1bcb28f709a13740ebf81a212",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/外设/补光灯固定件V2.STEP",
+        "bytes": 150725,
+        "sha256": "d425ea6e03effe59a62bcb0730cd15aebd2d1db9f8df29f6d626d4b8ce825740",
+        "repository_path": "hardware/v4-pro/cad/外设/补光灯固定件V2.STEP"
+      },
+      {
+        "archive_path": "V4pro/密封舱/前舱盖165.SLDPRT",
+        "bytes": 68445,
+        "sha256": "05b8987dad992b74cd498fe1cb354bd20a37fe54b8a9a5a9ffe91dd700184d0a",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/后舱盖165.DWG",
+        "bytes": 62643,
+        "sha256": "6cbda2b9eded00e9eb444c60270ca648fb951fbd714c2b6b60fb1dbf16425a20",
+        "repository_path": "hardware/v4-pro/cad/密封舱/后舱盖165.DWG"
+      },
+      {
+        "archive_path": "V4pro/密封舱/后舱盖165.SLDDRW",
+        "bytes": 160820,
+        "sha256": "b2718b32c6153045db6e951bde6692fc45ec42aca17846e31a21f9d9671c069f",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/后舱盖165.SLDPRT",
+        "bytes": 239880,
+        "sha256": "26321df8227138bb68373f837a8bd6525ce7571c3a720c34f223b630c8f23757",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/后舱盖165.STEP",
+        "bytes": 199292,
+        "sha256": "c6264971985d61baf94fc0073e43cbc0b445d5783291da4e3162aa28a92a8f47",
+        "repository_path": "hardware/v4-pro/cad/密封舱/后舱盖165.STEP"
+      },
+      {
+        "archive_path": "V4pro/密封舱/密封亚克力管165-300.SLDPRT",
+        "bytes": 93284,
+        "sha256": "66c9e4c964727875b31284dd80502e3084426023d7a0a5d419cb2e0e821ad2f7",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/法兰165.SLDPRT",
+        "bytes": 554548,
+        "sha256": "eaddb1983ea53ae4be910ef2778c8daa03741a39df5a96ea19325cc1eb43c2ae",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/0201_C.step.SLDPRT",
+        "bytes": 83095,
+        "sha256": "8d0e5eec2b7a644caec7e387f5865471fef4d487de717cd5fc4abe03f0933ed3",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/0201_R.step.SLDPRT",
+        "bytes": 82817,
+        "sha256": "79818ffb36897db2ba23557b1296ea0bc923b9fbf7bf46c62da4906c45df9be5",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/1206_R.step.SLDPRT",
+        "bytes": 71865,
+        "sha256": "b62be3368a62d0364bac10eaf0a2d2888ff0a4eaa49ec570cbb0e95a4371da1d",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/12P接线端子.SLDPRT",
+        "bytes": 7065545,
+        "sha256": "46884b35584efd84a5c431e74f8d169e2ebfbb7ec138f10e0a522af863a9e353",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/16P大电流接线端子.SLDPRT",
+        "bytes": 8225065,
+        "sha256": "50aa9ac65b2e5925aa102852c5f8457fbcfe3060ae5c750132864fa5f1ef9f9d",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/16P接线端子.SLDPRT",
+        "bytes": 6489856,
+        "sha256": "7df73d2fa37fdfc90c4f9c612265c104dcecb41b1a5ba16bcac5f24b470dce98",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/2026-01-20-10-41-54-864.step.SLDPRT",
+        "bytes": 16213370,
+        "sha256": "a8f585ad3198f3e4ac1e974c8ea0d97f870658c4cc048298618b3c586231b1fe",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/30A继电器.SLDPRT",
+        "bytes": 306687,
+        "sha256": "05e8a6919b818e26dd68f1cc787770aa563f29ee33ef0df90e3dcc2b64635b6e",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/6P接线端子.SLDPRT",
+        "bytes": 765249,
+        "sha256": "ecff1ca43e60ee604efe67a03a46a88eccc8d9e6af23b73ef5b46d35dbb583e4",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/7316147680.step.SLDPRT",
+        "bytes": 670553,
+        "sha256": "00a52391b8a38e00883070340b0e237f93c9075cce6646989d8abdaccf72ddc3",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/8P接线端子.SLDPRT",
+        "bytes": 940918,
+        "sha256": "ebb5bebe55341199460d429c060128bb7d077af5dce75c12b5d9bd4c795599a4",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/A板.SLDPRT",
+        "bytes": 271330,
+        "sha256": "5eddb76b5a7e6d6ef06ca5f71f3f4af917e48c6785dc8070ffed39500b5ddac5",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/C板.SLDPRT",
+        "bytes": 149893,
+        "sha256": "664de733d075e98cbf644c965f7673b6847062860ba12172e0208bdf559c59db",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/Extruded_6.step.SLDPRT",
+        "bytes": 46069,
+        "sha256": "b51d4c5e92643340ecd18d71458f1e9aaa37b6483dc37e6652c68998312498c1",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/H3800-12P.SLDPRT",
+        "bytes": 7211523,
+        "sha256": "8595255a4818015f1ec6f7088994478ab704af25450c5d6efd10654465933c0b",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/h3800-12p接线端子.SLDPRT",
+        "bytes": 5593305,
+        "sha256": "98288a96016742ab19a4ec8909c81242eedfe02acf92b20fcee4bf6f5c6a1af9",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/H3800-16P.SLDPRT",
+        "bytes": 6515738,
+        "sha256": "c7503fa60fe4af8df04c213e04269285993d8f98bf38ad23a5a2ae6438f89906",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/h3800-20p.SLDPRT",
+        "bytes": 7324410,
+        "sha256": "29b649c8c05a10b9ab75e007facea1b2b7bf10730b05e965402d0d8a941281b6",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/H3800-6P.SLDPRT",
+        "bytes": 4098275,
+        "sha256": "f939e49e143191d4d96c375670301cc1f3515e4a1874acd529b535d4d21a1659",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/H3802-10P.SLDPRT",
+        "bytes": 1188162,
+        "sha256": "078e741ba8c4a5b35afbae022ceee413d0c59f93b88c0caaba7f340cea04e82f",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/h3802-12p接线端子.SLDPRT",
+        "bytes": 1451488,
+        "sha256": "0808906ea1a5eb60eadc96b74e3584dde3d93a0d6be5e5468abdec65111b39d6",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/I2C扩展板.SLDPRT",
+        "bytes": 284658,
+        "sha256": "4e5c609906394b395e13d74b62b5f58f7a7f029db27edb586b98521cd1e08cc1",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/IMU.SLDPRT",
+        "bytes": 18569167,
+        "sha256": "a0bffbb15ec1e66ef04c40f98fe99ca1883229d64e053ae7097b0ccea592068f",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/ldm1-2.5-24-yy-00b.SLDPRT",
+        "bytes": 5587789,
+        "sha256": "9ef11713cd6846729b3cf712c1fdcb1581d40e6ee0252b72f6459a3f47ba455c",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/nano.SLDPRT",
+        "bytes": 97170833,
+        "sha256": "bd12043c799afbb82106d88a752edf373acd90b1a62d3f1e4441004953f9cd93",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/PWM扩展板.SLDPRT",
+        "bytes": 300851,
+        "sha256": "537729133a9acc4f43204e0f741ea8aae677c2783c18896bad73500280453afb",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/R0402.step.SLDPRT",
+        "bytes": 129748,
+        "sha256": "f4fac6b9f4acf4070ba2c4e88c811b660a08dcb497afe4b1283e6fb1ace99fb0",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/ROBOMASTER_A板 v2.step",
+        "bytes": 30416,
+        "sha256": "0118173e8837c000078a5d68e4b29e04c0fc36bba371129291e5ea9d7ab72bc6",
+        "repository_path": "hardware/v4-pro/cad/密封舱/舱内/ROBOMASTER_A板 v2.step"
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/sc70-6_p0-65_l2-15_w1-35.step.SLDPRT",
+        "bytes": 218328,
+        "sha256": "798c9ed04b7fbcb3b59d123e15fc6c699dd5b8902a3cd4c31559a628b06a0aea",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/SM02B.step.SLDPRT",
+        "bytes": 228894,
+        "sha256": "9d39737a0e69bfa6384f015ae4e2bcac553dd360558853e38103bd146c08f071",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/SMC.step.SLDPRT",
+        "bytes": 98434,
+        "sha256": "1b17efb44f0d56e1b481d9913972a61e0b79010622cf7ad0835e60d1ce60e924",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/SOLID.step.step.SLDPRT",
+        "bytes": 615856,
+        "sha256": "0819bf239ddfcf1f33f0ce1fab1f6720067b0006d0da81e2c4433c36c5f4edc4",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/stlink.SLDPRT",
+        "bytes": 112794,
+        "sha256": "a23f6788430d67b0a63310f3a076127ab33c08250b5e1808d1ba7b908ec914ec",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/TTL转485.SLDPRT",
+        "bytes": 266738,
+        "sha256": "474abbb93dcc146c46f95f5fab000b25e3b89015920e7a0d03e545d951d54c3e",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/User Library-molex 53047-1.step.SLDPRT",
+        "bytes": 147673,
+        "sha256": "df40ecbe35fc927b92d3ab11e3f3215e0de1dbdef251c031c28a9ed607ec1c43",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/User Library-SOT-723.step.SLDPRT",
+        "bytes": 167764,
+        "sha256": "8563277b88e0541af73320297c6437dbd8feb70f1eb0c0c0381867a7562c23da",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/WHEELTEC_H30裸板.stp",
+        "bytes": 12609911,
+        "sha256": "d2c1ebc33f8f33011f2e106c2dce1480dda9bfa64e3e167d151468e719198a64",
+        "repository_path": "hardware/v4-pro/cad/密封舱/舱内/WHEELTEC_H30裸板.stp"
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/~$0201_C.step.SLDPRT",
+        "bytes": 5,
+        "sha256": "99cfd1a531f57bd8362b2b26a8a3547ccab5f38457880df9c4110a8f7943f83d",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/~$0201_R.step.SLDPRT",
+        "bytes": 5,
+        "sha256": "99cfd1a531f57bd8362b2b26a8a3547ccab5f38457880df9c4110a8f7943f83d",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/~$1206_R.step.SLDPRT",
+        "bytes": 5,
+        "sha256": "99cfd1a531f57bd8362b2b26a8a3547ccab5f38457880df9c4110a8f7943f83d",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/~$7316147680.step.SLDPRT",
+        "bytes": 5,
+        "sha256": "99cfd1a531f57bd8362b2b26a8a3547ccab5f38457880df9c4110a8f7943f83d",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/~$Extruded_6.step.SLDPRT",
+        "bytes": 5,
+        "sha256": "99cfd1a531f57bd8362b2b26a8a3547ccab5f38457880df9c4110a8f7943f83d",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/~$R0402.step.SLDPRT",
+        "bytes": 5,
+        "sha256": "99cfd1a531f57bd8362b2b26a8a3547ccab5f38457880df9c4110a8f7943f83d",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/~$sc70-6_p0-65_l2-15_w1-35.step.SLDPRT",
+        "bytes": 5,
+        "sha256": "99cfd1a531f57bd8362b2b26a8a3547ccab5f38457880df9c4110a8f7943f83d",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/~$SM02B.step.SLDPRT",
+        "bytes": 5,
+        "sha256": "99cfd1a531f57bd8362b2b26a8a3547ccab5f38457880df9c4110a8f7943f83d",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/~$SMC.step.SLDPRT",
+        "bytes": 5,
+        "sha256": "99cfd1a531f57bd8362b2b26a8a3547ccab5f38457880df9c4110a8f7943f83d",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/~$SOLID.step.step.SLDPRT",
+        "bytes": 5,
+        "sha256": "99cfd1a531f57bd8362b2b26a8a3547ccab5f38457880df9c4110a8f7943f83d",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/~$User Library-molex 53047-1.step.SLDPRT",
+        "bytes": 5,
+        "sha256": "99cfd1a531f57bd8362b2b26a8a3547ccab5f38457880df9c4110a8f7943f83d",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/~$User Library-SOT-723.step.SLDPRT",
+        "bytes": 5,
+        "sha256": "99cfd1a531f57bd8362b2b26a8a3547ccab5f38457880df9c4110a8f7943f83d",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/上层架板.SLDPRT",
+        "bytes": 160109,
+        "sha256": "86b96fe9c5520a50769d00fbb37f119f8f2beaaf9b7b3995adbd8dd2ccaa7d18",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/上层架板.STEP",
+        "bytes": 186743,
+        "sha256": "1bce2c5948f35be732f74bf03744945728faf65243cfe188c03e21db9d3defdb",
+        "repository_path": "hardware/v4-pro/cad/密封舱/舱内/上层架板.STEP"
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/下层架板.SLDPRT",
+        "bytes": 128897,
+        "sha256": "ef652fc82511149b8221cd40a0dd6a79912f9dcaff8dcbfca5c3ee80c1303bec",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/下层架板.STEP",
+        "bytes": 155861,
+        "sha256": "aed7cdd8a494a7074a2d0f559f98d92eeb93249390f5d67f16ebc18f1af52b05",
+        "repository_path": "hardware/v4-pro/cad/密封舱/舱内/下层架板.STEP"
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/分电8轴.SLDPRT",
+        "bytes": 434652,
+        "sha256": "3dee36eac7931bbe803faf9660e536fb1e5ba2873f6a998cfdba0d60a2ca9f38",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/前舱盖165.SLDPRT",
+        "bytes": 67172,
+        "sha256": "e6b7327db93e2d9726b57146443f7e8f97e269a9a395bd98422bfa3e5f32deb3",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/后舱盖165.SLDPRT",
+        "bytes": 173428,
+        "sha256": "c0806c827f089ff65f6c94f6b8f8880b7fe10f455b7d8f4bd4451d4c2b81dfc5",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/四合一电调30.5孔距.step.SLDPRT",
+        "bytes": 25417074,
+        "sha256": "2d5b9f8865af83321b8dfd0f0a815e760feea4e1295132f07f1321acae26eb00",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/密封亚克力管165-300.SLDPRT",
+        "bytes": 93045,
+        "sha256": "cdc6c24e3f3bbbca5ab86543ca979a183e7860145da7eb6e48cc46646bafffa6",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/层架.SLDPRT",
+        "bytes": 2578641,
+        "sha256": "021c8140fac6fa69f5a6912fba30a87942965bbedbc527bba688febec6612d21",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/新电池.SLDPRT",
+        "bytes": 49171,
+        "sha256": "e3242accb2987b9e7062229d048573a6a72c9f4dc8dec1902158d6c769846ce2",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/无线调试器.SLDPRT",
+        "bytes": 408201,
+        "sha256": "fa1d94da490414372e3e099ac1bfb67471bad2c39f2a76ba1cc0745c32b4ca3d",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/树莓派4B.SLDPRT",
+        "bytes": 359611,
+        "sha256": "1192b027d81efbb58c3a55c773f9834c25a3915698f9018c536ad323a173c998",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/法兰.SLDPRT",
+        "bytes": 477493,
+        "sha256": "927d68bbce97592c7950babdbc42743ca1416e762f5cae7e9e903e439aed7d64",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/电力载波.step.SLDPRT",
+        "bytes": 26827029,
+        "sha256": "9c267f558db83c05a36b437e6ce65e8d9a366f5e8a0937b8a321f33d6b0aefb7",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/电池.SLDPRT",
+        "bytes": 49413,
+        "sha256": "12aabfaa1348e134d9143e53f16db2b6072a91a01346e231cc3cd554108c7c4b",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/电池架.SLDPRT",
+        "bytes": 150186,
+        "sha256": "195572fea775b0e2e8388d78c60f0c6bfe78cc0797b967bd18d0dc49d63a87e5",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/电池架.STEP",
+        "bytes": 147104,
+        "sha256": "445b60ec7ea6326a90d1a1aecafbc1e631fa38a4a6917551f9b8215261ddc90f",
+        "repository_path": "hardware/v4-pro/cad/密封舱/舱内/电池架.STEP"
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱内/降压模块.SLDPRT",
+        "bytes": 317931,
+        "sha256": "e6ed99e8a9a7cb21ed039da23452d5e0273be6042f57beac6ab6886a738d054d",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/密封舱/舱管固定环165.SLDPRT",
+        "bytes": 369300,
+        "sha256": "d29e22aa9cc4e79cbfc089fbf42078ae1ad6f5637ec3519451653eda959e31f1",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/推进器/9-16-2.stp.SLDPRT",
+        "bytes": 156694,
+        "sha256": "282febf5dbef28fb0d6f228cb8f07adce9bb05159d7f449d6285b9e459dd8053",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/推进器/PRT0001.stp.SLDPRT",
+        "bytes": 41461,
+        "sha256": "525e8796bc4e99aca7f85743642dfa94773801f023008a8950998f2997b2664f",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/推进器/YD11-24-1.stp.SLDPRT",
+        "bytes": 33159,
+        "sha256": "3ad0ec77b6bbd102b61b989a3f30b87e2111d9b26f9add2f03c925524f3f2381",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/推进器/YD11-24-2.stp.SLDPRT",
+        "bytes": 402733,
+        "sha256": "9112a2c5cd6f650562ccbba4ee684a6bfbcd75ebf6131457d4d695bb19e8aa4c",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/推进器/YD11-24-3.stp.SLDPRT",
+        "bytes": 121219,
+        "sha256": "c55f4125316eb8d947f0e6e4a14dbd77ffc19491c1ad6d351955c1b52d5d8fd1",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/推进器/推进器.SLDASM",
+        "bytes": 1856621,
+        "sha256": "ff04cbd26f462a2c785594aeb6711e571999ea1186dd2b461d240d5d0f5d0fdd",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/推进器/推进器垫板.SLDPRT",
+        "bytes": 72337,
+        "sha256": "05feb2a63a4dae9a1b05a2aab0887091ca596b9e79cc818d305055e0be925a08",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/推进器/推进器垫板.STEP",
+        "bytes": 44872,
+        "sha256": "34ebd0d49bc114a1bda95014ecf2c250f3b24fee75f8fb75e15973e6d4939857",
+        "repository_path": "hardware/v4-pro/cad/推进器/推进器垫板.STEP"
+      },
+      {
+        "archive_path": "V4pro/推进器/镜向9-16-2.stp.SLDPRT",
+        "bytes": 411877,
+        "sha256": "ddf04a42f041c818f7f20dc88b86d86a40db199ad32c27f50ed28b9a7b81755e",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/推进器/镜向PRT0001.stp.SLDPRT",
+        "bytes": 66711,
+        "sha256": "0dbe37dab28be8ad4eeb89c0830d86bdd3fef3761552e40bc5014c5fc183bf68",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/推进器/镜向YD11-24-1.stp.SLDPRT",
+        "bytes": 47203,
+        "sha256": "0019b74f321e2990897c3998fe78e18394e4d42f8cb1eadf3fb7be312df76a09",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/推进器/镜向YD11-24-2.stp.SLDPRT",
+        "bytes": 1131257,
+        "sha256": "3fabfb35b9510f96677fb8a06a10cd894b27ed20668fa68eeea095e413d9ab87",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/推进器/镜向YD11-24-3.stp.SLDPRT",
+        "bytes": 299481,
+        "sha256": "331b8fb94b5fe17884bfd4382eb47cae9dd68db0b446ebb57de7a85632a63983",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/推进器/镜向推进器.SLDASM",
+        "bytes": 780164,
+        "sha256": "7d7521fea953b24412ad8c16ef21923cbdbc20e92a6cdd9edfaed6aa98a9246f",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/推进器/镜向推进器1.SLDASM",
+        "bytes": 780206,
+        "sha256": "150ac39cb2475d581db4da1a9ed078d0ef86c2d15d906313604b5235d8d3a435",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/推进器/镜向推进器2.SLDASM",
+        "bytes": 779245,
+        "sha256": "4e8c65c9e515d1abe6c955bec427a7c076faee66b10e61ec72bf65b5019b6d57",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/推进器/镜向推进器3.SLDASM",
+        "bytes": 764228,
+        "sha256": "46a987fc2321af97bc3bc9d2583d7e97a10c9a71649529ffc0711376afe0c13d",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/推进器/镜向镜向9-16-2.stp.SLDPRT",
+        "bytes": 279396,
+        "sha256": "c8991e27be12a7450cd2ef6a82743b5a0952d4b69bb71134d03fbf96b04895fa",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/推进器/镜向镜向PRT0001.stp.SLDPRT",
+        "bytes": 50808,
+        "sha256": "4ddd0626c8604f707382762b2a64cc144dcae9cc5f000b1aba27405539a4a89b",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/推进器/镜向镜向YD11-24-1.stp.SLDPRT",
+        "bytes": 38474,
+        "sha256": "9789dbe25fbe48448a122fcc027194740c5752426cbd94db788496e1acc4b88e",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/推进器/镜向镜向YD11-24-2.stp.SLDPRT",
+        "bytes": 750437,
+        "sha256": "ea7a14cd64c9a9be40edfdf115a0bf524ae33f19b8369ac137ec79159453cdee",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/推进器/镜向镜向YD11-24-3.stp.SLDPRT",
+        "bytes": 200950,
+        "sha256": "f07ef1be9040923e4a49d502fcaa2046031a2e8f2467e70d1a2dc6e58ca820fc",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/推进器/镜向镜向推进器3.SLDASM",
+        "bytes": 761904,
+        "sha256": "ab7378b5d2980d2bf6fb44c05379dd5645338c9366adfb60e76bc0100e1b84eb",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/水深传感器/外置套管.SLDPRT",
+        "bytes": 171187,
+        "sha256": "7d03b3c35639790814ed888cd444641b86e62fcd9742e26733431b2743a068db",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/水深传感器/外置套管固定.SLDPRT",
+        "bytes": 129837,
+        "sha256": "96fd7a870dab6cf8fe622c1a31fa272334dfd56c1112edb8bb3e3a0d19f0e6c4",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/水深传感器/外置套管固定加工版.SLDPRT",
+        "bytes": 132210,
+        "sha256": "7d2aeba6697bb89286ac629f4317f8dbe167d5130ede8ee198750d9069e175d2",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/水深传感器/外置套管固定加工版.STEP",
+        "bytes": 87207,
+        "sha256": "c326a139e65e0aee50adc0e3d1aee8ab039a864b9058e24e03aa5f8dcfab9dc7",
+        "repository_path": "hardware/v4-pro/cad/水深传感器/外置套管固定加工版.STEP"
+      },
+      {
+        "archive_path": "V4pro/水深传感器/水深传感器.SLDPRT",
+        "bytes": 651739,
+        "sha256": "5e43549889337d821487f3949d0efd77be36f3e646051f06fb6af0d3d61750ab",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/浮力外壳/浮力外壳2.STEP",
+        "bytes": 452951,
+        "sha256": "ec9371cb67ed491c889c2854a77facb9e1228a4ae5eaaf02e43b70475f798346",
+        "repository_path": "hardware/v4-pro/cad/浮力外壳/浮力外壳2.STEP"
+      },
+      {
+        "archive_path": "V4pro/浮力外壳/浮力外壳（3d打印）.SLDPRT",
+        "bytes": 441767,
+        "sha256": "e03ea209c0974a4b804cda9d84c6c10cb99001cfca90ed1a06528b08102038d6",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/浮力外壳/浮力外壳（加工）.SLDPRT",
+        "bytes": 301345,
+        "sha256": "698da0cb35f4fd344bea8e39c7953ae382baffc894dfe847e2e48733c1d34003",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/浮力外壳/浮力外壳（加工）.STEP",
+        "bytes": 453001,
+        "sha256": "f4622198ccbad75d4862125f74c136bd54811350b90ff727a2dffa1e9c10964e",
+        "repository_path": "hardware/v4-pro/cad/浮力外壳/浮力外壳（加工）.STEP"
+      },
+      {
+        "archive_path": "V4pro/相机云台/ZF-S30舵机.SLDPRT",
+        "bytes": 3515660,
+        "sha256": "2b7a72b02d2a1a432471b79ceee33abf06b8a3a8a4ada8b417500fdd3ab450cd",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/相机云台/前云台底架.DWG",
+        "bytes": 57900,
+        "sha256": "e045722b7b14d8aee057f19bbc6578a022b5194044ab46842a989eefa5ef5282",
+        "repository_path": "hardware/v4-pro/cad/相机云台/前云台底架.DWG"
+      },
+      {
+        "archive_path": "V4pro/相机云台/前云台底架.SLDDRW",
+        "bytes": 127012,
+        "sha256": "337b1f239bd07bdb61f200da1a0fadd946e004a4b400c99d9dca0184dd4984e0",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/相机云台/前云台底架.SLDPRT",
+        "bytes": 327526,
+        "sha256": "11887825ccd4daee943121363a2f210fe793e0a2c1f31827c597294c74c01008",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/相机云台/前云台底架.STEP",
+        "bytes": 150006,
+        "sha256": "af1e123e1c50cbf365efb2eb186bcad6bda66f98ea98b965423b3016508658c7",
+        "repository_path": "hardware/v4-pro/cad/相机云台/前云台底架.STEP"
+      },
+      {
+        "archive_path": "V4pro/相机云台/后云台底架.DWG",
+        "bytes": 46010,
+        "sha256": "4ab5365feaecc93fa741f0e29d27c6f9f44256edb064b6666a9b1587900d6116",
+        "repository_path": "hardware/v4-pro/cad/相机云台/后云台底架.DWG"
+      },
+      {
+        "archive_path": "V4pro/相机云台/后云台底架.SLDDRW",
+        "bytes": 124293,
+        "sha256": "bb0e03ed2e45bfbb89a4dceb97057f7e739b444b60f33c725c49920ecb4017d1",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/相机云台/后云台底架.SLDPRT",
+        "bytes": 176455,
+        "sha256": "30bccf9409716388ceaab48631b27cc7e74d8d2b7a5fd9d3c58206894b5de29c",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/相机云台/后云台底架.STEP",
+        "bytes": 102301,
+        "sha256": "3e1d81f123912de40db9325cc13257b8079ca6ea9d6eff42118f1e30a7950582",
+        "repository_path": "hardware/v4-pro/cad/相机云台/后云台底架.STEP"
+      },
+      {
+        "archive_path": "V4pro/相机云台/垫片.SLDPRT",
+        "bytes": 66457,
+        "sha256": "1006bc2a3457af8c6a0c00f526688a45ff9a0ea028be5b0c4bfbd15a24b98ab4",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/相机云台/垫片.STEP",
+        "bytes": 30585,
+        "sha256": "be630e76c0cc3ee50ccdf3370806ce58fbec2898c9d07346f8df68a0a88c07ba",
+        "repository_path": "hardware/v4-pro/cad/相机云台/垫片.STEP"
+      },
+      {
+        "archive_path": "V4pro/相机云台/相机连接件.SLDPRT",
+        "bytes": 294711,
+        "sha256": "670a57388d231d612fec3c04b1e8d14ececdea8c526d3a4ebc28d66b5264f76c",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/相机云台/相机连接件.STEP",
+        "bytes": 143264,
+        "sha256": "6c81bf6158c1cbeba97307270b03337c04203bd8812c2c3c5795f4263c94b508",
+        "repository_path": "hardware/v4-pro/cad/相机云台/相机连接件.STEP"
+      },
+      {
+        "archive_path": "V4pro/相机云台/相机连接件2.DWG",
+        "bytes": 47291,
+        "sha256": "fd50b32e43f534efdda76606445b45c4bc2ab7e56f2892bf3d41b3638cfb3f53",
+        "repository_path": "hardware/v4-pro/cad/相机云台/相机连接件2.DWG"
+      },
+      {
+        "archive_path": "V4pro/相机云台/相机连接件2.SLDDRW",
+        "bytes": 102610,
+        "sha256": "304124bd396927f0d3c77aa0802b3fef4a01bb19eec6833e8fa1f54c27b74d90",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/相机云台/相机连接件2.SLDPRT",
+        "bytes": 87770,
+        "sha256": "3bcddf3bc5d7eb34acb03c3da4a63937b1c2b97d3567e3139edcd3c2e05f7227",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/相机云台/相机连接件2.STEP",
+        "bytes": 66080,
+        "sha256": "17d218aef7dbbaf12bd527f47a01c14b4e8ae716c794855dddaa54a52caaf6fc",
+        "repository_path": "hardware/v4-pro/cad/相机云台/相机连接件2.STEP"
+      },
+      {
+        "archive_path": "V4pro/相机云台/自研双目摄像头-开源版本.SLDPRT",
+        "bytes": 2448440,
+        "sha256": "a8e30ee2237411516fefb86464236b23e72fd0c8fb3db0026d1d1af17576290e",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/相机云台/舵机连接件.SLDPRT",
+        "bytes": 149615,
+        "sha256": "c8050fd49f43744720e6cafda9e462685b712c81bc3bc1e4719676250413be8e",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4pro/相机云台/舵机连接件.STEP",
+        "bytes": 154246,
+        "sha256": "37e4e1939f9d31a0eb9823a73e780fe9100a2248c61c333a6f34f1506910679b",
+        "repository_path": "hardware/v4-pro/cad/相机云台/舵机连接件.STEP"
+      },
+      {
+        "archive_path": "V4pro/舱内设计.SLDASM",
+        "bytes": 56768842,
+        "sha256": "aecc6488d378179b3eb9d4ca3c4930e93106454ed321c6baf482f4f85eece2d7",
+        "repository_path": null
+      }
+    ]
+  },
+  {
+    "archive": "v4-manipulator.zip",
+    "bytes": 1530494,
+    "sha256": "f3a7e0431a0e2f316d0956a40b6624b91efec63bccc4b66b1a30c1a9f66e9459",
+    "filename_encoding": "UTF-8",
+    "files": [
+      {
+        "archive_path": "圆法兰盘1.SLDPRT",
+        "bytes": 250109,
+        "sha256": "a4614c634459b023b9ba29a8f7d72f4c4e5799fa3b5e677672715fdfa4d57d3e",
+        "repository_path": "hardware/v4/manipulator/圆法兰盘1.SLDPRT"
+      },
+      {
+        "archive_path": "圆柱齿轮20×1.5-从动2.SLDPRT",
+        "bytes": 308596,
+        "sha256": "4842efc51d159a59425d55d2ce60e8654beb91b946b25eebe26af66bace2dbe0",
+        "repository_path": "hardware/v4/manipulator/圆柱齿轮20×1.5-从动2.SLDPRT"
+      },
+      {
+        "archive_path": "圆柱齿轮20×1.5-主动2.SLDPRT",
+        "bytes": 267037,
+        "sha256": "2a4febc659d040a05087e25c4cb200a235429f01557a7dfefb1e34319c57b94e",
+        "repository_path": "hardware/v4/manipulator/圆柱齿轮20×1.5-主动2.SLDPRT"
+      },
+      {
+        "archive_path": "装配体1.SLDASM",
+        "bytes": 262630,
+        "sha256": "de2ef56d5972b51972681c534f5442da15f863a023fa9c8550e62ff95d0044e4",
+        "repository_path": "hardware/v4/manipulator/装配体1.SLDASM"
+      },
+      {
+        "archive_path": "顶盖.SLDPRT",
+        "bytes": 123409,
+        "sha256": "11c33f3d2452f47b1a4154b42946032c3cc9abba5e10d4c651d3d2c4edcc8c4e",
+        "repository_path": "hardware/v4/manipulator/顶盖.SLDPRT"
+      },
+      {
+        "archive_path": "夹手.SLDPRT",
+        "bytes": 142288,
+        "sha256": "a7cf489c146e5bbfe290d0fb180ac10903467e5594700cf364cbca0e0a8cd00f",
+        "repository_path": "hardware/v4/manipulator/夹手.SLDPRT"
+      },
+      {
+        "archive_path": "拉杆2.SLDPRT",
+        "bytes": 87852,
+        "sha256": "7a7c26d89fab36de05856a0a63d97013066cf79564e73c9e7023f50e85480f36",
+        "repository_path": "hardware/v4/manipulator/拉杆2.SLDPRT"
+      },
+      {
+        "archive_path": "新基座.SLDPRT",
+        "bytes": 139548,
+        "sha256": "c692ca6753a75612283d90203d4fd3a45bf34bc967d5bab2910c3eb38ece76a8",
+        "repository_path": "hardware/v4/manipulator/新基座.SLDPRT"
+      }
+    ]
+  },
+  {
+    "archive": "V4-2025-05-23.zip",
+    "bytes": 83275936,
+    "sha256": "e92e6b7a6fe18196caed008f90d64376540a6831e62b9bb647b1ce2d17925b53",
+    "filename_encoding": "gbk",
+    "files": [
+      {
+        "archive_path": "V4/~$底板.SLDPRT",
+        "bytes": 5,
+        "sha256": "3eec0869fc533f9f711ec6c017328315737680335004a175658ef4893e969e98",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/~$防水舱盖支撑层.SLDPRT",
+        "bytes": 5,
+        "sha256": "3eec0869fc533f9f711ec6c017328315737680335004a175658ef4893e969e98",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/主体/上推进器支撑.DWG",
+        "bytes": 54965,
+        "sha256": "3383cd3a9043f065bf373b01cf325ae4c9d6861d8bc72ade186c8e86a4c054f6",
+        "repository_path": "hardware/v4/cad/主体/上推进器支撑.DWG"
+      },
+      {
+        "archive_path": "V4/主体/上推进器支撑.SLDDRW",
+        "bytes": 147941,
+        "sha256": "159092f74c0bfa67f92a47f14cfa4641df36f4d51e1f58d7f5282d1a01172935",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/主体/上推进器支撑.SLDPRT",
+        "bytes": 274326,
+        "sha256": "c855236ec68b059c6d361e5486dd953c616d0fe3a37d4004b888b4cb1b5f24bf",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/主体/上推进器支撑.STEP",
+        "bytes": 235575,
+        "sha256": "b4af88523c6fd9c79e10b3720070a7b7d26f155c4362b390c59c51902928f108",
+        "repository_path": "hardware/v4/cad/主体/上推进器支撑.STEP"
+      },
+      {
+        "archive_path": "V4/主体/侧支撑.DWG",
+        "bytes": 55602,
+        "sha256": "8ccfe9d7aff6eefe94811b53489c9f29a3041efcbc4b98f34eb2531d0ef4250c",
+        "repository_path": "hardware/v4/cad/主体/侧支撑.DWG"
+      },
+      {
+        "archive_path": "V4/主体/侧支撑.SLDDRW",
+        "bytes": 158791,
+        "sha256": "89bdfe4ac7e5e6e0dc94c9a34e24e0ed72dfbd128b59e35d1b8b9e213c666baa",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/主体/侧支撑.SLDPRT",
+        "bytes": 265171,
+        "sha256": "54df79e87e41d7691542116bd1d9d52715e403ae709699f9c0e3b304d6a552b8",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/主体/侧支撑.STEP",
+        "bytes": 301376,
+        "sha256": "f2305c8f0ae4152e218942002b68fc878ec38d5a429963a9357835822807f9a2",
+        "repository_path": "hardware/v4/cad/主体/侧支撑.STEP"
+      },
+      {
+        "archive_path": "V4/主体/底支撑.SLDPRT",
+        "bytes": 356514,
+        "sha256": "000a5dd0f320530c7832cf0d4a6b920181225df20c5546f14e3ed96ac22b5f56",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/主体/底支撑2.DWG",
+        "bytes": 45807,
+        "sha256": "ce53477a14314b79df57db2a2f8875e28421a163b6609923b66e75ba55030419",
+        "repository_path": "hardware/v4/cad/主体/底支撑2.DWG"
+      },
+      {
+        "archive_path": "V4/主体/底支撑2.SLDDRW",
+        "bytes": 118629,
+        "sha256": "baabd64f8755ab2568be96a0b21baee8285da631eec140b1cf2bf7e00d4d039d",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/主体/底支撑2.SLDPRT",
+        "bytes": 293850,
+        "sha256": "02d1b1072a3726d7e4ee089d41cd8e8c46dcba99826644e3fb07d8e000e6c45b",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/主体/底支撑2.STEP",
+        "bytes": 117019,
+        "sha256": "3e714fb5fcaf91d01683af10684ef72a2b0591d6404e77c8fdbfa1b6e71b27bf",
+        "repository_path": "hardware/v4/cad/主体/底支撑2.STEP"
+      },
+      {
+        "archive_path": "V4/主体/角件.SLDPRT",
+        "bytes": 123039,
+        "sha256": "1142c1c8168055bbd76fa5c9ff1735e49cdc7d38e1209fe1cca09558bf478138",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/主体/角件.STEP",
+        "bytes": 48572,
+        "sha256": "20815b73d7ab71baa399c8bad32d67484693aebdb5f1977f4227f6587c2559b1",
+        "repository_path": "hardware/v4/cad/主体/角件.STEP"
+      },
+      {
+        "archive_path": "V4/加工外形.SLDASM",
+        "bytes": 1208725,
+        "sha256": "85c545b3c09ed63fab9cd87f4d97923d6bd7913a8bf8655b723f62be3b6e44c6",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/加工外形.STEP",
+        "bytes": 762664,
+        "sha256": "201d3d986cb624a623ee1ef27bfd7c560bdc0b4d1fa80ab9d53a2ae312c8e3a2",
+        "repository_path": "hardware/v4/cad/加工外形.STEP"
+      },
+      {
+        "archive_path": "V4/外形.SLDASM",
+        "bytes": 8021165,
+        "sha256": "d9956bffd68932249465403561a2bdba30167b764f875c8e39c5239deba5751d",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/密封舱/前舱盖165.SLDPRT",
+        "bytes": 68445,
+        "sha256": "05b8987dad992b74cd498fe1cb354bd20a37fe54b8a9a5a9ffe91dd700184d0a",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/密封舱/后舱盖165.DWG",
+        "bytes": 56238,
+        "sha256": "643af5c65da160a0f77059d6e7992a07a0550b4241a5bb4605449572ce7feb8f",
+        "repository_path": "hardware/v4/cad/密封舱/后舱盖165.DWG"
+      },
+      {
+        "archive_path": "V4/密封舱/后舱盖165.SLDDRW",
+        "bytes": 165321,
+        "sha256": "ef803ce61d7cee48366491d639a91b45caea1555a7c4e8858a7d89893811fdf2",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/密封舱/后舱盖165.SLDPRT",
+        "bytes": 273508,
+        "sha256": "5aa23230cc08d8f1755554f5a3628ca8012aba728c0179bb4e84126568eae603",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/密封舱/后舱盖165.STEP",
+        "bytes": 182461,
+        "sha256": "f96c3b0ee5f155070a66dd791da72d16777501e5e31e955bbab02928dc9a7316",
+        "repository_path": "hardware/v4/cad/密封舱/后舱盖165.STEP"
+      },
+      {
+        "archive_path": "V4/密封舱/密封亚克力管165-300.SLDPRT",
+        "bytes": 93284,
+        "sha256": "66c9e4c964727875b31284dd80502e3084426023d7a0a5d419cb2e0e821ad2f7",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/密封舱/法兰165.SLDPRT",
+        "bytes": 554548,
+        "sha256": "eaddb1983ea53ae4be910ef2778c8daa03741a39df5a96ea19325cc1eb43c2ae",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/密封舱/舱内/12P接线端子.SLDPRT",
+        "bytes": 7211523,
+        "sha256": "8595255a4818015f1ec6f7088994478ab704af25450c5d6efd10654465933c0b",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/密封舱/舱内/16P大电流接线端子.SLDPRT",
+        "bytes": 8225065,
+        "sha256": "50aa9ac65b2e5925aa102852c5f8457fbcfe3060ae5c750132864fa5f1ef9f9d",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/密封舱/舱内/16P接线端子.SLDPRT",
+        "bytes": 6489856,
+        "sha256": "7df73d2fa37fdfc90c4f9c612265c104dcecb41b1a5ba16bcac5f24b470dce98",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/密封舱/舱内/30A继电器.SLDPRT",
+        "bytes": 306687,
+        "sha256": "05e8a6919b818e26dd68f1cc787770aa563f29ee33ef0df90e3dcc2b64635b6e",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/密封舱/舱内/6P接线端子.SLDPRT",
+        "bytes": 765249,
+        "sha256": "ecff1ca43e60ee604efe67a03a46a88eccc8d9e6af23b73ef5b46d35dbb583e4",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/密封舱/舱内/8P接线端子.SLDPRT",
+        "bytes": 940918,
+        "sha256": "ebb5bebe55341199460d429c060128bb7d077af5dce75c12b5d9bd4c795599a4",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/密封舱/舱内/C板.SLDPRT",
+        "bytes": 149893,
+        "sha256": "664de733d075e98cbf644c965f7673b6847062860ba12172e0208bdf559c59db",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/密封舱/舱内/H3800-12P.SLDPRT",
+        "bytes": 7211523,
+        "sha256": "8595255a4818015f1ec6f7088994478ab704af25450c5d6efd10654465933c0b",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/密封舱/舱内/H3800-16P.SLDPRT",
+        "bytes": 6515738,
+        "sha256": "c7503fa60fe4af8df04c213e04269285993d8f98bf38ad23a5a2ae6438f89906",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/密封舱/舱内/H3800-6P.SLDPRT",
+        "bytes": 4098275,
+        "sha256": "f939e49e143191d4d96c375670301cc1f3515e4a1874acd529b535d4d21a1659",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/密封舱/舱内/H3802-10P.SLDPRT",
+        "bytes": 1188162,
+        "sha256": "078e741ba8c4a5b35afbae022ceee413d0c59f93b88c0caaba7f340cea04e82f",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/密封舱/舱内/I2C扩展板.SLDPRT",
+        "bytes": 281050,
+        "sha256": "c3890235ee56bf9ed1ca682ae20ae97af5c851caa8458510e27a7bb9969548db",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/密封舱/舱内/PWM扩展板.SLDPRT",
+        "bytes": 300851,
+        "sha256": "537729133a9acc4f43204e0f741ea8aae677c2783c18896bad73500280453afb",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/密封舱/舱内/stlink.SLDPRT",
+        "bytes": 112794,
+        "sha256": "a23f6788430d67b0a63310f3a076127ab33c08250b5e1808d1ba7b908ec914ec",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/密封舱/舱内/TTL转485.SLDPRT",
+        "bytes": 266738,
+        "sha256": "474abbb93dcc146c46f95f5fab000b25e3b89015920e7a0d03e545d951d54c3e",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/密封舱/舱内/上层架板.SLDPRT",
+        "bytes": 145839,
+        "sha256": "9f3d1f6f5b48be280c832e22eb8754ed8b8d5ac304a01a91efc0cf3825464778",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/密封舱/舱内/上层架板.STEP",
+        "bytes": 195065,
+        "sha256": "f2a4cb0fe4a5dcf068cfd35f11315c8c51ef7e0b594087ef2d073ee323fab3ab",
+        "repository_path": "hardware/v4/cad/密封舱/舱内/上层架板.STEP"
+      },
+      {
+        "archive_path": "V4/密封舱/舱内/下层架板.SLDPRT",
+        "bytes": 137966,
+        "sha256": "abb96c6fa159aa69713b69e39f07346d4f288a185cb5c92788f5c28d1ec14ac0",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/密封舱/舱内/下层架板.STEP",
+        "bytes": 213081,
+        "sha256": "9c7de660bff6f04bfb1225ec65a49f6e8529cf93d62272dcf2d847353f807b9e",
+        "repository_path": "hardware/v4/cad/密封舱/舱内/下层架板.STEP"
+      },
+      {
+        "archive_path": "V4/密封舱/舱内/前舱盖165.SLDPRT",
+        "bytes": 67172,
+        "sha256": "e6b7327db93e2d9726b57146443f7e8f97e269a9a395bd98422bfa3e5f32deb3",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/密封舱/舱内/后舱盖165.SLDPRT",
+        "bytes": 173428,
+        "sha256": "c0806c827f089ff65f6c94f6b8f8880b7fe10f455b7d8f4bd4451d4c2b81dfc5",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/密封舱/舱内/密封亚克力管165-300.SLDPRT",
+        "bytes": 93045,
+        "sha256": "cdc6c24e3f3bbbca5ab86543ca979a183e7860145da7eb6e48cc46646bafffa6",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/密封舱/舱内/层架.SLDPRT",
+        "bytes": 2578641,
+        "sha256": "021c8140fac6fa69f5a6912fba30a87942965bbedbc527bba688febec6612d21",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/密封舱/舱内/新电池.SLDPRT",
+        "bytes": 49171,
+        "sha256": "e3242accb2987b9e7062229d048573a6a72c9f4dc8dec1902158d6c769846ce2",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/密封舱/舱内/无线调试器.SLDPRT",
+        "bytes": 408201,
+        "sha256": "fa1d94da490414372e3e099ac1bfb67471bad2c39f2a76ba1cc0745c32b4ca3d",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/密封舱/舱内/树莓派4B.SLDPRT",
+        "bytes": 359611,
+        "sha256": "1192b027d81efbb58c3a55c773f9834c25a3915698f9018c536ad323a173c998",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/密封舱/舱内/法兰.SLDPRT",
+        "bytes": 477493,
+        "sha256": "927d68bbce97592c7950babdbc42743ca1416e762f5cae7e9e903e439aed7d64",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/密封舱/舱内/电池.SLDPRT",
+        "bytes": 49413,
+        "sha256": "12aabfaa1348e134d9143e53f16db2b6072a91a01346e231cc3cd554108c7c4b",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/密封舱/舱内/电池架.SLDPRT",
+        "bytes": 150186,
+        "sha256": "195572fea775b0e2e8388d78c60f0c6bfe78cc0797b967bd18d0dc49d63a87e5",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/密封舱/舱内/电池架.STEP",
+        "bytes": 147104,
+        "sha256": "445b60ec7ea6326a90d1a1aecafbc1e631fa38a4a6917551f9b8215261ddc90f",
+        "repository_path": "hardware/v4/cad/密封舱/舱内/电池架.STEP"
+      },
+      {
+        "archive_path": "V4/密封舱/舱内/降压模块.SLDPRT",
+        "bytes": 317931,
+        "sha256": "e6ed99e8a9a7cb21ed039da23452d5e0273be6042f57beac6ab6886a738d054d",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/密封舱/舱管固定环165.SLDPRT",
+        "bytes": 369300,
+        "sha256": "d29e22aa9cc4e79cbfc089fbf42078ae1ad6f5637ec3519451653eda959e31f1",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/推进器/9-16-2.stp.SLDPRT",
+        "bytes": 156694,
+        "sha256": "282febf5dbef28fb0d6f228cb8f07adce9bb05159d7f449d6285b9e459dd8053",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/推进器/PRT0001.stp.SLDPRT",
+        "bytes": 41461,
+        "sha256": "525e8796bc4e99aca7f85743642dfa94773801f023008a8950998f2997b2664f",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/推进器/YD11-24-1.stp.SLDPRT",
+        "bytes": 33159,
+        "sha256": "3ad0ec77b6bbd102b61b989a3f30b87e2111d9b26f9add2f03c925524f3f2381",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/推进器/YD11-24-2.stp.SLDPRT",
+        "bytes": 402733,
+        "sha256": "9112a2c5cd6f650562ccbba4ee684a6bfbcd75ebf6131457d4d695bb19e8aa4c",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/推进器/YD11-24-3.stp.SLDPRT",
+        "bytes": 121219,
+        "sha256": "c55f4125316eb8d947f0e6e4a14dbd77ffc19491c1ad6d351955c1b52d5d8fd1",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/推进器/推进器.SLDASM",
+        "bytes": 1856621,
+        "sha256": "ff04cbd26f462a2c785594aeb6711e571999ea1186dd2b461d240d5d0f5d0fdd",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/推进器/镜向9-16-2.stp.SLDPRT",
+        "bytes": 411877,
+        "sha256": "ddf04a42f041c818f7f20dc88b86d86a40db199ad32c27f50ed28b9a7b81755e",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/推进器/镜向PRT0001.stp.SLDPRT",
+        "bytes": 66711,
+        "sha256": "0dbe37dab28be8ad4eeb89c0830d86bdd3fef3761552e40bc5014c5fc183bf68",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/推进器/镜向YD11-24-1.stp.SLDPRT",
+        "bytes": 47203,
+        "sha256": "0019b74f321e2990897c3998fe78e18394e4d42f8cb1eadf3fb7be312df76a09",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/推进器/镜向YD11-24-2.stp.SLDPRT",
+        "bytes": 1131257,
+        "sha256": "3fabfb35b9510f96677fb8a06a10cd894b27ed20668fa68eeea095e413d9ab87",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/推进器/镜向YD11-24-3.stp.SLDPRT",
+        "bytes": 299481,
+        "sha256": "331b8fb94b5fe17884bfd4382eb47cae9dd68db0b446ebb57de7a85632a63983",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/推进器/镜向推进器.SLDASM",
+        "bytes": 780164,
+        "sha256": "7d7521fea953b24412ad8c16ef21923cbdbc20e92a6cdd9edfaed6aa98a9246f",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/推进器/镜向推进器1.SLDASM",
+        "bytes": 780206,
+        "sha256": "150ac39cb2475d581db4da1a9ed078d0ef86c2d15d906313604b5235d8d3a435",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/推进器/镜向推进器2.SLDASM",
+        "bytes": 779245,
+        "sha256": "4e8c65c9e515d1abe6c955bec427a7c076faee66b10e61ec72bf65b5019b6d57",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/推进器/镜向推进器3.SLDASM",
+        "bytes": 764228,
+        "sha256": "46a987fc2321af97bc3bc9d2583d7e97a10c9a71649529ffc0711376afe0c13d",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/推进器/镜向镜向9-16-2.stp.SLDPRT",
+        "bytes": 279396,
+        "sha256": "c8991e27be12a7450cd2ef6a82743b5a0952d4b69bb71134d03fbf96b04895fa",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/推进器/镜向镜向PRT0001.stp.SLDPRT",
+        "bytes": 50808,
+        "sha256": "4ddd0626c8604f707382762b2a64cc144dcae9cc5f000b1aba27405539a4a89b",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/推进器/镜向镜向YD11-24-1.stp.SLDPRT",
+        "bytes": 38474,
+        "sha256": "9789dbe25fbe48448a122fcc027194740c5752426cbd94db788496e1acc4b88e",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/推进器/镜向镜向YD11-24-2.stp.SLDPRT",
+        "bytes": 750437,
+        "sha256": "ea7a14cd64c9a9be40edfdf115a0bf524ae33f19b8369ac137ec79159453cdee",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/推进器/镜向镜向YD11-24-3.stp.SLDPRT",
+        "bytes": 200950,
+        "sha256": "f07ef1be9040923e4a49d502fcaa2046031a2e8f2467e70d1a2dc6e58ca820fc",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/推进器/镜向镜向推进器3.SLDASM",
+        "bytes": 761904,
+        "sha256": "ab7378b5d2980d2bf6fb44c05379dd5645338c9366adfb60e76bc0100e1b84eb",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/水深传感器/外置套管.SLDPRT",
+        "bytes": 171187,
+        "sha256": "7d03b3c35639790814ed888cd444641b86e62fcd9742e26733431b2743a068db",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/水深传感器/外置套管固定.SLDPRT",
+        "bytes": 119596,
+        "sha256": "8fccbce50aa5f4a62da18d7ee2d412d65060975930e2c223fc439cba326e25b2",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/水深传感器/外置套管固定加工版.SLDPRT",
+        "bytes": 132210,
+        "sha256": "7d2aeba6697bb89286ac629f4317f8dbe167d5130ede8ee198750d9069e175d2",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/水深传感器/外置套管固定加工版.STEP",
+        "bytes": 87207,
+        "sha256": "c326a139e65e0aee50adc0e3d1aee8ab039a864b9058e24e03aa5f8dcfab9dc7",
+        "repository_path": "hardware/v4/cad/水深传感器/外置套管固定加工版.STEP"
+      },
+      {
+        "archive_path": "V4/水深传感器/水深传感器.SLDPRT",
+        "bytes": 651739,
+        "sha256": "5e43549889337d821487f3949d0efd77be36f3e646051f06fb6af0d3d61750ab",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/浮力外壳/浮力外壳.SLDPRT",
+        "bytes": 749968,
+        "sha256": "febcc3e8a16f93fee89e1d269098fed13302f97f20d8c3af3ed3a8e4a3c4262c",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/浮力外壳/浮力外壳2.SLDPRT",
+        "bytes": 425839,
+        "sha256": "12df4b288ebc5293d5f1484e531055d37aab48a23511b29c552afcf25421f0d2",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/浮力外壳/浮力外壳2.STEP",
+        "bytes": 452951,
+        "sha256": "ec9371cb67ed491c889c2854a77facb9e1228a4ae5eaaf02e43b70475f798346",
+        "repository_path": "hardware/v4/cad/浮力外壳/浮力外壳2.STEP"
+      },
+      {
+        "archive_path": "V4/相机云台/ZF-S30舵机.SLDPRT",
+        "bytes": 3515660,
+        "sha256": "2b7a72b02d2a1a432471b79ceee33abf06b8a3a8a4ada8b417500fdd3ab450cd",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/相机云台/云台底架.DWG",
+        "bytes": 45586,
+        "sha256": "72d98336ba37440276e1e855197babb849b7ee2b90e289e2aa43bdf794dc0394",
+        "repository_path": "hardware/v4/cad/相机云台/云台底架.DWG"
+      },
+      {
+        "archive_path": "V4/相机云台/云台底架.SLDDRW",
+        "bytes": 107949,
+        "sha256": "07ddbc8b265b976896470433d1241dc679510f4cf42fa3f4404e48fb59780480",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/相机云台/云台底架.STEP",
+        "bytes": 93155,
+        "sha256": "47a7f4cfdf0664be81fab67b17da76cd4c332f00da388adad43c4b17133ef24a",
+        "repository_path": "hardware/v4/cad/相机云台/云台底架.STEP"
+      },
+      {
+        "archive_path": "V4/相机云台/前云台底架.SLDPRT",
+        "bytes": 94140,
+        "sha256": "a19cde7633119cefda875f5b461a374cb1cab888bcc22807d7ad4cfe999d187c",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/相机云台/后云台底架.DWG",
+        "bytes": 45785,
+        "sha256": "40f22cbda55a3b725e7fcbef28ea83a78216e87735e93f13c41574ecba35e401",
+        "repository_path": "hardware/v4/cad/相机云台/后云台底架.DWG"
+      },
+      {
+        "archive_path": "V4/相机云台/后云台底架.SLDDRW",
+        "bytes": 117336,
+        "sha256": "b6a6f6b787392cf477a2359e4849703bdb52e99e75a3369489079ca22562d199",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/相机云台/后云台底架.SLDPRT",
+        "bytes": 287741,
+        "sha256": "eb7a1b7086f4a2828ea5faea5fb8d30d9af83fcbe722d15d1b2ea4cf5029d2c7",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/相机云台/后云台底架.STEP",
+        "bytes": 101020,
+        "sha256": "c614ca82d59c8a70afcc94dd56bcf06af2b0bb6fac6521d5fd24d8e8effa8040",
+        "repository_path": "hardware/v4/cad/相机云台/后云台底架.STEP"
+      },
+      {
+        "archive_path": "V4/相机云台/相机.SLDPRT",
+        "bytes": 609353,
+        "sha256": "24f79c54e694b4357e7d31d5d0564fcd48663183e9df1a2d38c2a261b3d3bb31",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/相机云台/相机连接件.SLDPRT",
+        "bytes": 166062,
+        "sha256": "1171fe4406aacb557719369eb4f58df9457e3835a7a7a09b406dafc57dc22d6c",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/相机云台/相机连接件.STEP",
+        "bytes": 144454,
+        "sha256": "adf7a0802b8429ba9612f19c613fab59a25b88a0f0cdfe6107c4bf440dd18b69",
+        "repository_path": "hardware/v4/cad/相机云台/相机连接件.STEP"
+      },
+      {
+        "archive_path": "V4/相机云台/舵机连接件.SLDPRT",
+        "bytes": 193608,
+        "sha256": "d770b128dfcc566db644f7ea01ea3bdeaf20170cbd93486bebbb29ca47404272",
+        "repository_path": null
+      },
+      {
+        "archive_path": "V4/相机云台/舵机连接件.STEP",
+        "bytes": 154361,
+        "sha256": "c902a5472544da27b0f88ebc1c1bcfa8fb15a368a06d19bea34b6902c634d55d",
+        "repository_path": "hardware/v4/cad/相机云台/舵机连接件.STEP"
+      },
+      {
+        "archive_path": "V4/舱内设计.SLDASM",
+        "bytes": 5791718,
+        "sha256": "f1711591b5e8b028378fb0061310ae92bdcc347db9e4fd049444c01bfde38fba",
+        "repository_path": null
+      }
+    ]
+  },
+  {
+    "archive": "v4-camera-mount-2025-07-10.zip",
+    "bytes": 275425,
+    "sha256": "74a6173b0eb2ca251823f38946b736da9b08fc55b7779a3a658763908012e569",
+    "filename_encoding": "gbk",
+    "files": [
+      {
+        "archive_path": "相机支架1.SLDPRT",
+        "bytes": 170869,
+        "sha256": "521db0ca63c8e4543f298b8d6fef0aa6b922bea2b4f5bf0a78c126dd0140274c",
+        "repository_path": "hardware/v4/camera-mount/相机支架1.SLDPRT"
+      },
+      {
+        "archive_path": "相机支架2.SLDPRT",
+        "bytes": 112548,
+        "sha256": "b2c12a20e706dd0fa27115ced3f134e6f38f7dbbfaa278d09b75f04edac4f00d",
+        "repository_path": "hardware/v4/camera-mount/相机支架2.SLDPRT"
+      }
+    ]
+  }
+]

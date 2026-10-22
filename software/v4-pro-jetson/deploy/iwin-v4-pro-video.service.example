@@ -1,0 +1,25 @@
+# Example only: verify the camera mode and JetPack GStreamer plugins first.
+[Unit]
+Description=IWIN V4-pro RTP video streamer
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+User=robot
+Group=robot
+SupplementaryGroups=video
+WorkingDirectory=/opt/iwin-v4/runtime
+ExecStart=/opt/iwin-v4/venv/bin/python -u /opt/iwin-v4/runtime/GStreamerTest.py
+Restart=on-failure
+RestartSec=5
+KillSignal=SIGINT
+KillMode=control-group
+TimeoutStopSec=10
+UMask=0027
+NoNewPrivileges=true
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

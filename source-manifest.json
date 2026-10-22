@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-10-22",
+  "timezone": "Asia/Shanghai",
+  "repository": "FPJ-GAOGE/V4-Underwater-Robot",
+  "visibility": "private",
+  "documents": [
+    {
+      "name": "v4-pro-manufacturing",
+      "url": "https://iwin-fins.feishu.cn/wiki/RfVuwKMnqisR3rkWaFmcW6bOnVh",
+      "revision": 82
+    },
+    {
+      "name": "v4-design",
+      "url": "https://iwin-fins.feishu.cn/wiki/Ty7WwhJmCihi7qk3Gx8cAL93n8f",
+      "revision": 4295
+    },
+    {
+      "name": "v4-user-guide",
+      "url": "https://iwin-fins.feishu.cn/wiki/HCfmwuAOSiYgJCkpqcic0lPrnY8",
+      "revision": 277
+    },
+    {
+      "name": "v4-electrical",
+      "url": "https://iwin-fins.feishu.cn/wiki/R7XGwUqQZiNfqGkNGA8cCkj1nsh",
+      "revision": 667
+    },
+    {
+      "name": "orin-setup",
+      "url": "https://iwin-fins.feishu.cn/docx/S8I9dBMNmo2dIPxhWzkcyeQsnoP",
+      "revision": 1312
+    }
+  ],
+  "attachments": [
+    {
+      "path": "software/v4-pro-jetson/upstream/GStreamerTest.py",
+      "bytes": 6263,
+      "sha256": "f00f7aed7b12b13e29c6668169819a32d81924ad64fccd49fb0bfee7a4da3692"
+    },
+    {
+      "path": "software/v4-pro-jetson/upstream/StreamerStart.sh",
+      "bytes": 1713,
+      "sha256": "bee9397ebb0cbe5d3f97b6cb76b76358e45ef7776723e313d4c86465845b168f"
+    },
+    {
+      "path": "software/v4-pro-jetson/upstream/V5StreamerNX.py",
+      "bytes": 10837,
+      "sha256": "e6c97e906045df177d76d8b16685ee7cb6ad5dc434f04c072e52cb54ce6569b0"
+    },
+    {
+      "path": "software/legacy-2025-communication/camera test.py",
+      "bytes": 359,
+      "sha256": "119f96e490a35975f2ebfc08a40a498336076a9059ac664ed9fc050affe1c1be"
+    },
+    {
+      "path": "software/legacy-2025-communication/client.py",
+      "bytes": 1686,
+      "sha256": "61ffcda2fcc043060f20c737517a5c0a8d1e8118b8f02b9d571cf25c5cea35f7"
+    },
+    {
+      "path": "software/legacy-2025-communication/client_test.py",
+      "bytes": 1300,
+      "sha256": "2e7ed72e84e7306f43e5511a12367aafe08484f6f2a4e8408f9fae39b061620b"
+    },
+    {
+      "path": "software/legacy-2025-communication/main_client.py",
+      "bytes": 431,
+      "sha256": "0c9351aaf37118e6a592299ca8091a5d2dfc22abaa4ed955cfecc98ca795715e"
+    },
+    {
+      "path": "software/legacy-2025-communication/main_sever.py",
+      "bytes": 377,
+      "sha256": "a5d2baf37319f4e94dfe5e8f51871aca32ca74eb92bd178a09cd90ecb5105024"
+    },
+    {
+      "path": "software/legacy-2025-communication/server.py",
+      "bytes": 1053,
+      "sha256": "2912d4c56854784cbc20a2f6209f5d8ddf8be194f740b3c4d859c31be3a0c833"
+    },
+    {
+      "path": "software/legacy-2025-communication/server_test.py",
+      "bytes": 1668,
+      "sha256": "d2b6d0331f7a20cfcb14328447fca6d28ba285a6afd72780b7f034c3161a1c87"
+    },
+    {
+      "path": "docs/images/v4-assembly.jpg",
+      "bytes": 308721,
+      "sha256": "1472c60bdc5e34a8eac70071c101afa2395527b682f9146fac73b2c47f3212d0"
+    },
+    {
+      "path": "docs/images/v4-design.png",
+      "bytes": 251826,
+      "sha256": "c9cc5269b7184df0ebde443f7249fb0cfa1e99c8a5ebb5f8113e405d6a16b442"
+    },
+    {
+      "path": "docs/images/v4-electrical-board.jpg",
+      "bytes": 332154,
+      "sha256": "54dafe7d73cafcc8b48c9fe269209cf20b41ee6d998ad28bd3dbd72aec483ac2"
+    },
+    {
+      "path": "docs/images/v4-pressure-layout.png",
+      "bytes": 139598,
+      "sha256": "9e937943ae90e54df04bbd79cdbea24b52b84487990c15823b2789aadb1550d4"
+    },
+    {
+      "path": "docs/images/v4-pro-wiring-board.jpg",
+      "bytes": 329713,
+      "sha256": "e74cab774d9051f81b005865dd80fdc46622460bad032a8a69b6a46936760c1c"
+    },
+    {
+      "path": "docs/images/v4-thruster-layout.png",
+      "bytes": 154668,
+      "sha256": "c94888b58b599d794c0bbb0718b97e14ae35094d1678558deb369206bbedd686"
+    },
+    {
+      "path": "hardware/v4/electrical-connection.original.pdf",
+      "bytes": 5691381,
+      "sha256": "231b8b0f4016bd6b337349a4702ec93fb2ef26f2eb5c20c920d402e28c14be22"
+    }
+  ]
+}

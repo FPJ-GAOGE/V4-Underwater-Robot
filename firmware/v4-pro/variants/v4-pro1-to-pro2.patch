@@ -1,0 +1,124 @@
+diff --git a/Components/SUB/V5_SUB.hpp b/Components/SUB/V5_SUB.hpp
+index f491faf..7088332 100644
+--- a/Components/SUB/V5_SUB.hpp
++++ b/Components/SUB/V5_SUB.hpp
+@@ -158,7 +158,12 @@ public:
+        targetDeepth = Clamp(targetDeepth, 0.0f, 15.0f);
+        ls_target=targetDeepth;
+ 
+-       targetAttitude[2][0] += yawRate * 0.001f * 0.4f;
++       if (fabsf(yawRate) < 0.05f) {
++           yawRate = 0.0f;
++       }
++       yawRate = Clamp(yawRate, -1.0f, 1.0f);
++
++       targetAttitude[2][0] += yawRate * 0.001f * 0.8f;
+        targetVel[0][0] = FBSpeed * 0.35f;
+        targetVel[1][0] = LRSpeed * 0.35f;
+ 
+@@ -290,7 +295,7 @@ private:
+ 
+        std::array<float, PRESSURE_SENSOR_COUNT> currentPressures = {0.0f, 0.0f, 0.0f, 0.0f};
+ 
+-       for (size_t i = 1; i < PRESSURE_SENSOR_COUNT; i=i+2) {
++       for (size_t i = 3; i < 4; i=i+2) {
+            if (pressureSensors[i].sensor == nullptr) {
+                return;
+            }
+@@ -372,17 +377,17 @@ private:
+            currentAttitude = imu->getEulerArray().data();
+        }
+ 
+-       float p1 = 0.0f;
+-       float p3 = 0.0f;
++      // float p1 = 0.0f;
++      float p3 = 0.0f;
+ 
+-       if (pressureSensors[1].sensor != nullptr) {
++     /*  if (pressureSensors[1].sensor != nullptr) {
+            p1 = pressureSensors[1].sensor->GetPressure() - pressureSensorOffset[1];
+-       }
++       }*/
+        if (pressureSensors[3].sensor != nullptr) {
+            p3 = pressureSensors[3].sensor->GetPressure() - pressureSensorOffset[3];
+        }
+ 
+-       float waterPressure = (p1 + p3) * 0.5f;
++       float waterPressure = p3 ;
+        if (waterPressure < 0.0f) {
+            waterPressure = 0.0f;
+        }
+@@ -417,15 +422,15 @@ private:
+        lowerMotorOutPut[2][0] = fabsf(lowerMotorOutPut[2][0]) < 0.01f ? 0.0f : lowerMotorOutPut[2][0];
+        lowerMotorOutPut[3][0] = fabsf(lowerMotorOutPut[3][0]) < 0.01f ? 0.0f : lowerMotorOutPut[3][0];
+ 
+-       if (motors[1].motor) motors[1].motor->SetThrottle(-upperMotorOutPut[0][0]);
+-       if (motors[2].motor) motors[2].motor->SetThrottle(upperMotorOutPut[1][0]);
+-       if (motors[5].motor) motors[5].motor->SetThrottle(-upperMotorOutPut[2][0]);
+-       if (motors[6].motor) motors[6].motor->SetThrottle(-upperMotorOutPut[3][0]);
++       if (motors[1].motor) motors[1].motor->SetThrottle(upperMotorOutPut[0][0]);
++       if (motors[2].motor) motors[2].motor->SetThrottle(-upperMotorOutPut[1][0]);
++       if (motors[5].motor) motors[5].motor->SetThrottle(upperMotorOutPut[2][0]);
++       if (motors[6].motor) motors[6].motor->SetThrottle(upperMotorOutPut[3][0]);
+ 
+        if (motors[0].motor) motors[0].motor->SetThrottle(lowerMotorOutPut[0][0]);
+        if (motors[3].motor) motors[3].motor->SetThrottle(-lowerMotorOutPut[1][0]);
+-       if (motors[4].motor) motors[4].motor->SetThrottle(-lowerMotorOutPut[2][0]);
+-       if (motors[7].motor) motors[7].motor->SetThrottle(lowerMotorOutPut[3][0]);
++       if (motors[4].motor) motors[4].motor->SetThrottle(lowerMotorOutPut[2][0]);
++       if (motors[7].motor) motors[7].motor->SetThrottle(-lowerMotorOutPut[3][0]);
+    }
+ 
+    void StabilizeMode() {
+diff --git a/Devices/IMU/IMUBase.hpp b/Devices/IMU/IMUBase.hpp
+index c26b31c..cb57d16 100644
+--- a/Devices/IMU/IMUBase.hpp
++++ b/Devices/IMU/IMUBase.hpp
+@@ -15,7 +15,7 @@ class IMUBase : public DeviceBase
+ protected:
+     bool isDataGet = false;
+ 
+-    Matrixf<3, 3> rotationOffset {-1, 0, 0, 0, -1, 0, 0, 0, 1}; // IMU安装位置180度旋转
++    Matrixf<3, 3> rotationOffset {1, 0, 0, 0, 1, 0, 0, 0, 1}; // IMU安装位置180度旋转
+ 
+     Matrixf<3, 3> rotationMatrix = matrixf::eye<3,3>();
+ 
+diff --git a/Interface/Examples/TaskSUB.cpp b/Interface/Examples/TaskSUB.cpp
+index 810bc77..f1e4262 100644
+--- a/Interface/Examples/TaskSUB.cpp
++++ b/Interface/Examples/TaskSUB.cpp
+@@ -20,14 +20,14 @@
+ #define RAD_TO_DEG_F 57.2957795f
+ #endif
+ 
+-#define M6 8//1号电机
+-#define M2 1//2号电机
+-#define M3 2//3号电机
+-#define M4 3//4号电机
+-#define M5 5//5号电机
++#define M6 7//1号电机
++#define M2 3//2号电机
++#define M3 1//3号电机
++#define M4 2//4号电机
++#define M5 8//5号电机
+ #define M1 4//6号电机
+-#define M7 6 //7号电机
+-#define M8 7//8号电机
++#define M7 5 //7号电机
++#define M8 6//8号电机
+ 
+ #define L1 11
+ #define L2 12
+@@ -117,10 +117,10 @@ auto rollRateController = CreateControllers<PID, 1>(rollRatePID);
+ constexpr PID_Param_t pitchRatePID = {0.2f, 0.001f, 0.0f, 100, 2000};
+ auto pitchRateController = CreateControllers<PID, 1>(pitchRatePID);
+ 
+-constexpr PID_Param_t yawRatePID = {0.2f, 0.00f, 0.0f, 100, 2000};
++constexpr PID_Param_t yawRatePID = {0.2f, 0.0f, 0.0f, 100, 2000};
+ auto yawRateController = CreateControllers<PID, 1>(yawRatePID);
+ 
+-constexpr PID_Param_t deepthPID = {0.3f, 0.00f, 0.0f, 100, 0.5};
++constexpr PID_Param_t deepthPID = {0.3f, 0.0f, 0.0f, 100, 0.5};
+ auto deepthController = CreateControllers<PID, 1>(deepthPID);
+ 
+ // =========================
